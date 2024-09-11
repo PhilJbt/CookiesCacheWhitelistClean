@@ -2,8 +2,8 @@
 
 ![splash](img/header.png)
 
-Tired of having gigabytes used by different caches?\
-Set your own whitelists, and everything else will be emptied when your browser starts up!
+Tired of seeing gigabytes used by several different types of caches?\
+Set your own whitelists, and everything else will be removed when your browser starts up!
 
 [<img src="img/download.png">](#)
 
