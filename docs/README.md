@@ -5,6 +5,11 @@
 Tired of seeing gigabytes used by several different types of caches?\
 Set your own whitelists, and everything else will be removed when your browser starts up!
 
+> [!NOTE]
+> Credits:<br/>
+> Domain Check Library: https://github.com/lupomontero/psl<br/>
+> Icon: https://www.flaticon.com/authors/vectorsmarket15
+
 [<img src="img/download.png">](#)
 
 ![screenshot1](img/screen_1.png)
