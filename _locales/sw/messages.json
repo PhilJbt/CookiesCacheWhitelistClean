@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "Onyesha orodha yangu"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>Vidakuzi</i> hitaji:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>Vidakuzi</i> ni faili ndogo za data zilizohifadhiwa na tovuti kwenye kivinjari chako ili kukumbuka mapendeleo yako, hali ya kuingia, na kufuatilia shughuli za kuvinjari."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Akiba</i> hitaji:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Akiba</i> ni hifadhi ya muda ya rasilimali za ukurasa wa wavuti (kama picha, hati, n.k.) ili kuharakisha nyakati za upakiaji wa ukurasa wakati wa matembezi yajayo."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>Hifadhi ya Ndani</i> hitaji:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>Hifadhi ya Ndani</i> ni utaratibu wa kuhifadhi unaoendelea wa kuhifadhi kiasi kidogo cha data (jozi za thamani-msingi) ndani ya kivinjari, zinazoweza kufikiwa na tovuti hata baada ya kivinjari kufungwa."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> hitaji:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> ni utaratibu ulioacha kutumika wa hifadhi ya hifadhidata kulingana na kivinjari, unaoruhusu data iliyopangwa kuhifadhiwa katika hifadhidata zenye msingi wa SQL."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>Mifumo ya Faili</i> hitaji:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>Mifumo ya faili</i> huruhusu tovuti kuhifadhi faili na data kwenye mfumo wa faili wa kompyuta yako, na hivyo kuwezesha hifadhi kubwa na ngumu zaidi ya data."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>IndexedDB</i> hitaji:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>indexedDB</i> API ya kiwango cha chini ya kuhifadhi kiasi kikubwa cha data iliyopangwa, ikiwa ni pamoja na faili na matone, kuruhusu uwezo wa nje ya mtandao."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>Wafanyikazi wa Huduma</i> hitaji:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>Wafanyikazi wa Huduma</i> ni hati zinazoendeshwa chinichini ya kivinjari chako, zinazowezesha vipengele kama vile ufikiaji wa nje ya mtandao, usawazishaji wa chinichini na arifa zinazotumwa na programu hata ukiituma."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>Hifadhi ya Akiba</i> hitaji:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>Hifadhi ya Akiba</i> ni njia ya kuhifadhi inayotumiwa na ServiceWorkers kuweka akiba ya maombi ya mtandao na majibu kwa ufikiaji wa nje ya mtandao na nyakati za upakiaji wa haraka."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa Jina kuu la kikoa (k.m. <b>google.com</b> badala ya <b>account.google.com</b> au <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa Vikoa vidogo vya kurasa zinazolengwa (k.m. <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa Kuondolewa kwa <b>http://</b> au <b>https://</b> itifaki"
+  },
+  "ih_btnExport": {
+    "message": "Hamisha"
+  },
+  "ih_btnImport": {
+    "message": "Ingiza"
+  },
+  "ph_domExample": {
+    "message": "mfano.tz"
+  },
+  "sz_promptConfirm": {
+    "message": "Je, una uhakika wa kusafisha na haijaidhinishwa <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "%TYPE% ambayo haijaidhinishwa imefutwa kwa ufanisi."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

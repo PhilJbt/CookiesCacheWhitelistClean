@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "ዝርዝሬን አሳይ"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>ኩኪዎች</i> ያስፈልጋል፡"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>ኩኪዎች</i> ምርጫዎችዎን ለማስታወስ የመግቢያ ሁኔታዎን እና የአሰሳ እንቅስቃሴን ለመከታተል በአሳሽዎ ላይ በድር ጣቢያዎች የተከማቹ ትናንሽ የውሂብ ፋይሎች ናቸው።"
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>መሸጎጫ</i> ያስፈልጋል፡"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>መሸጎጫ</i> በወደፊት ጉብኝቶች ወቅት የገጽ ጭነት ጊዜዎችን ለማፋጠን ጊዜያዊ የድረ-ገጽ ሀብቶች (እንደ ምስሎች፣ ስክሪፕቶች፣ ወዘተ) ማከማቻ ነው።"
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>የአካባቢ ማከማቻ</i> ያስፈልጋል፡"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>የአካባቢ ማከማቻ</i> በአሳሹ ውስጥ አነስተኛ መጠን ያላቸውን መረጃዎች (ቁልፍ-እሴት ጥንዶች) ለማከማቸት የማያቋርጥ የማጠራቀሚያ ዘዴ ነው ፣ አሳሹ ከተዘጋ በኋላም በድር ጣቢያው ተደራሽ ነው።"
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> ያስፈልጋል፡"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> የተዋቀረ ውሂብ በSQL ላይ በተመሰረቱ የውሂብ ጎታዎች ውስጥ እንዲከማች የሚያስችል የተቋረጠ አሳሽ ላይ የተመሠረተ የውሂብ ጎታ ማከማቻ ዘዴ ነው።"
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>የፋይል ሲስተሞች</i> ያስፈልጋል፡"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>የፋይል ስርዓቶች</i> ድር ጣቢያዎች ፋይሎችን እና መረጃዎችን በኮምፒዩተራችሁ የፋይል ሲስተም ላይ እንዲያከማቹ ያስችላቸዋል፣ ይህም ትልቅ እና ውስብስብ የውሂብ ማከማቻን ያስችላል።"
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>IndexedDB</i> ያስፈልጋል፡"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>indexedDB</i> ዝቅተኛ ደረጃ ኤፒአይ ከፍተኛ መጠን ያለው የተዋቀረ ውሂብ ለማከማቸት ፋይሎችን እና ብሎቦችን ጨምሮ፣ ከመስመር ውጭ ችሎታዎች ያስችላል።"
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>አገልግሎት ሰሪዎች</i> ያስፈልጋል፡"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>አገልግሎት ሰሪዎች</i> እንደ ከመስመር ውጭ መዳረሻ፣ የጀርባ ማመሳሰል እና የግፋ ማሳወቂያዎች ያሉ ባህሪያትን ማንቃት በአሳሽዎ ጀርባ ላይ የሚሰሩ ስክሪፕቶች ናቸው።"
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>መሸጎጫ ማከማቻ</i> ያስፈልጋል፡"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>መሸጎጫ ማከማቻ</i> የአውታረ መረብ ጥያቄዎችን እና ምላሾችን ከመስመር ውጭ ለመድረስ እና ፈጣን የመጫኛ ጊዜዎችን ለመሸጎጥ በServiceWorkers የሚጠቀሙበት የማከማቻ ዘዴ ነው።"
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa ዋናው የዶሜይን ስም (ለምሳሌ፦ <b>google.com</b> በምትኩ <b>account.google.com</b> ወይም <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa የታለሙት ገጾች ትክክለኛ ንዑስ ጎራዎች (ለምሳሌ፦ <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa የ <b>http://</b> ወይም <b>https://</b> ፕሮቶኮሎች"
+  },
+  "ih_btnExport": {
+    "message": "ወደ ውጪ ላክ"
+  },
+  "ih_btnImport": {
+    "message": "አስመጣ"
+  },
+  "ph_domExample": {
+    "message": "ምሳሌ.am"
+  },
+  "sz_promptConfirm": {
+    "message": "በተፈቀደላቸው መዝገብ ውስጥ ያልተካተቱትን ማፅዳትዎን እርግጠኛ ነዎት <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "ያልተፈቀዱ %TYPE% በተሳካ ሁኔታ ጸድተዋል።"
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

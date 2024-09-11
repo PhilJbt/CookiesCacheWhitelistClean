@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "Zeige meine Liste"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>Kekse</i> erfordern:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>Kekse</i> Dabei handelt es sich um kleine Datendateien, die von Websites in Ihrem Browser gespeichert werden, um Ihre Präferenzen und Ihren Anmeldestatus zu speichern und Ihre Surfaktivitäten zu verfolgen."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Cache</i> erfordern:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Cache</i> ist die vorübergehende Speicherung von Webseitenressourcen (wie Bildern, Skripten usw.), um die Ladezeiten der Seite bei zukünftigen Besuchen zu beschleunigen."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>Lokaler Speicher</i> erfordern:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>Lokaler Speicher</i> ist ein dauerhafter Speichermechanismus zum Speichern kleiner Datenmengen (Schlüssel-Wert-Paare) lokal im Browser, auf den die Website auch nach dem Schließen des Browsers zugreifen kann."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> erfordern:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> ist ein veralteter browserbasierter Datenbankspeichermechanismus, der die Speicherung strukturierter Daten in SQL-basierten Datenbanken ermöglicht."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>Dateisysteme</i> erfordern:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>Dateisysteme</i> ermöglicht es Websites, Dateien und Daten im Dateisystem Ihres Computers zu speichern, was eine größere und komplexere Datenspeicherung ermöglicht."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>IndexedDB</i> erfordern:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>indexedDB</i> Low-Level-API zum Speichern großer Mengen strukturierter Daten, einschließlich Dateien und Blobs, die Offline-Funktionen ermöglichen."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>Servicemitarbeiter</i> erfordern:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>Servicemitarbeiter</i> sind Skripte, die im Hintergrund Ihres Browsers ausgeführt werden und Funktionen wie Offline-Zugriff, Hintergrundsynchronisierung und Push-Benachrichtigungen ermöglichen."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>CacheStorage</i> erfordern:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>CacheStorage</i> ist ein Speichermechanismus, der von ServiceWorkern zum Zwischenspeichern von Netzwerkanforderungen und -antworten für den Offline-Zugriff und schnellere Ladezeiten verwendet wird."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa Der Hauptdomänenname (z. B. <b>google.com</b> anstatt <b>account.google.com</b> oder <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa Die genauen Subdomains der Zielseiten (z. B. <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa Die Entfernung der <b>http://</b> oder <b>https://</b> Protokolle"
+  },
+  "ih_btnExport": {
+    "message": "Export"
+  },
+  "ih_btnImport": {
+    "message": "Import"
+  },
+  "ph_domExample": {
+    "message": "Beispiel.de"
+  },
+  "sz_promptConfirm": {
+    "message": "Sind Sie sicher, dass die Reinigung nicht auf der Whitelist steht? <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "%TYPE%, die nicht auf der Whitelist stehen, wurden erfolgreich gelöscht."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

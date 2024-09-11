@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "Listemi göster"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>Çerezler</i> gerekmek:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>Çerezler</i> tercihlerinizi, oturum açma durumunuzu hatırlamak ve tarama etkinliğinizi izlemek için web siteleri tarafından tarayıcınızda saklanan küçük veri dosyalarıdır."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Önbellek</i> gerekmek:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Önbellek</i> gelecekteki ziyaretlerde sayfa yükleme sürelerini hızlandırmak için web sayfası kaynaklarının (resimler, komut dosyaları vb.) geçici olarak depolanmasıdır."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>Yerel Depolama</i> gerekmek:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>Yerel Depolama</i> küçük miktarlardaki verileri (anahtar/değer çiftleri) tarayıcıda yerel olarak depolamak için kullanılan ve tarayıcı kapatıldıktan sonra bile web sitesi tarafından erişilebilen kalıcı depolama mekanizmasıdır."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>Web SQL</i> gerekmek:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>Web SQL</i> Yapılandırılmış verilerin SQL tabanlı veritabanlarında saklanmasına olanak tanıyan, kullanımdan kaldırılmış, tarayıcı tabanlı bir veritabanı depolama mekanizmasıdır."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>Dosya Sistemleri</i> gerekmek:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>DosyalarSistemler</i> Web sitelerinin dosyaları ve verileri bilgisayarınızın dosya sisteminde depolamasına olanak tanıyarak daha büyük ve daha karmaşık veri depolama olanağı sağlar."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>İndekslenmişDB</i> gerekmek:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>indekslenmişDB</i> Dosyalar ve bloblar da dahil olmak üzere büyük miktarlarda yapılandırılmış veriyi depolamak için düşük düzeyli API, çevrimdışı yeteneklere olanak tanır."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>Hizmet Çalışanları</i> gerekmek:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>Hizmet Çalışanları</i> tarayıcınızın arka planında çalışan, çevrimdışı erişim, arka planda senkronizasyon ve anında bildirimler gibi özellikleri etkinleştiren komut dosyalarıdır."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>Önbellek Depolama</i> gerekmek:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>Önbellek Depolama</i> Çevrimdışı erişim ve daha hızlı yükleme süreleri için ServiceWorkers tarafından ağ isteklerini ve yanıtlarını önbelleğe almak için kullanılan bir depolama mekanizmasıdır."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa Ana alan adı (ör. <b>google.com.tr</b> yerine <b>account.google.com</b> veya <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa Hedeflenen sayfaların tam alt alanları (ör. <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa Kaldırılması <b>http://</b> veya <b>https://</b> protokoller"
+  },
+  "ih_btnExport": {
+    "message": "İhracat"
+  },
+  "ih_btnImport": {
+    "message": "İçe aktarmak"
+  },
+  "ph_domExample": {
+    "message": "örnek.tr"
+  },
+  "sz_promptConfirm": {
+    "message": "Beyaz listeye alınmayanları temizlediğinizden emin misiniz? <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "Beyaz listeye alınmayan %TYPE% başarıyla temizlendi."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

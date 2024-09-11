@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "แสดงรายการของฉัน"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>คุกกี้</i> จำเป็นต้อง:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>คุกกี้</i> เป็นไฟล์ข้อมูลขนาดเล็กที่เว็บไซต์จัดเก็บไว้บนเบราว์เซอร์ของคุณเพื่อจดจำการตั้งค่า สถานะการเข้าสู่ระบบ และติดตามกิจกรรมการท่องเว็บ"
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>แคช</i> จำเป็นต้อง:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>แคช</i> เป็นที่จัดเก็บทรัพยากรของหน้าเว็บชั่วคราว (เช่น รูปภาพ สคริปต์ ฯลฯ) เพื่อเพิ่มความเร็วในการโหลดหน้าเว็บระหว่างการเข้าชมครั้งต่อไป"
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>พื้นที่เก็บข้อมูลท้องถิ่น</i> จำเป็นต้อง:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>พื้นที่เก็บข้อมูลท้องถิ่น</i> เป็นกลไกการจัดเก็บข้อมูลถาวรสำหรับการจัดเก็บข้อมูลจำนวนเล็กน้อย (คู่คีย์-ค่า) ภายในเบราว์เซอร์ ซึ่งสามารถเข้าถึงได้โดยเว็บไซต์แม้หลังจากปิดเบราว์เซอร์แล้ว"
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>เว็บSQL</i> จำเป็นต้อง:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>เว็บSQL</i> เป็นกลไกการจัดเก็บฐานข้อมูลบนเบราว์เซอร์ที่เลิกใช้งานแล้ว ซึ่งช่วยให้สามารถจัดเก็บข้อมูลที่มีโครงสร้างในฐานข้อมูลที่ใช้ SQL"
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>ระบบไฟล์</i> จำเป็นต้อง:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>ระบบไฟล์</i> อนุญาตให้เว็บไซต์จัดเก็บไฟล์และข้อมูลบนระบบไฟล์ของคอมพิวเตอร์ของคุณ ทำให้สามารถจัดเก็บข้อมูลที่ใหญ่ขึ้นและซับซ้อนยิ่งขึ้น"
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>IndexedDB</i> จำเป็นต้อง:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>จัดทำดัชนีDB</i> API ระดับต่ำสำหรับการจัดเก็บข้อมูลที่มีโครงสร้างจำนวนมาก รวมถึงไฟล์และ blobs ช่วยให้สามารถใช้งานออฟไลน์ได้"
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>พนักงานบริการ</i> จำเป็นต้อง:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>พนักงานบริการ</i> เป็นสคริปต์ที่ทำงานอยู่เบื้องหลังเบราว์เซอร์ของคุณ ซึ่งเปิดใช้งานคุณสมบัติต่างๆ เช่น การเข้าถึงแบบออฟไลน์ การซิงค์ในพื้นหลัง และการแจ้งเตือนแบบพุช"
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>พื้นที่เก็บข้อมูลแคช</i> จำเป็นต้อง:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>พื้นที่เก็บข้อมูลแคช</i> เป็นกลไกการจัดเก็บข้อมูลที่ ServiceWorkers ใช้เพื่อแคชคำขอเครือข่ายและการตอบกลับสำหรับการเข้าถึงแบบออฟไลน์และเวลาในการโหลดที่เร็วขึ้น"
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa ชื่อโดเมนหลัก (เช่น <b>google.com</b> แทน <b>account.google.com</b> หรือ <b>www.google.com</b>-"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa โดเมนย่อยที่แน่นอนของหน้าที่กำหนดเป้าหมาย (เช่น <b>account.google.com</b>-"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa การถอดถอน <b>http://</b> หรือ <b>https://</b> โปรโตคอล"
+  },
+  "ih_btnExport": {
+    "message": "ส่งออก"
+  },
+  "ih_btnImport": {
+    "message": "นำเข้า"
+  },
+  "ph_domExample": {
+    "message": "ตัวอย่าง.th"
+  },
+  "sz_promptConfirm": {
+    "message": "คุณแน่ใจว่าจะล้างรายการที่ไม่อนุญาต <b>%TYPE%</b> -"
+  },
+  "sz_notifyCleared": {
+    "message": "ล้าง %TYPE% ที่ไม่ได้อยู่ในรายการที่อนุญาตสำเร็จแล้ว"
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

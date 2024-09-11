@@ -1,0 +1,540 @@
+/*
+** In-built overriding
+*/
+body {
+	min-width: 75vw;
+	width: 500px;
+	padding: 0px;
+	margin: 0px;
+	background-image: linear-gradient(to right bottom, #000625, #001b31, #00272b, #003118, #2b3700);
+	background-size: 100% 100vh;
+	margin-left:auto;
+	margin-right:auto;
+	background-attachment: fixed;
+	margin-bottom: 15px;
+}
+body:has(#cont-backup:not([style*="display: flex"])) {
+	margin-bottom: 0px;
+}
+
+*:focus {
+	outline: none;
+}
+
+input[type="text"] {
+	background-color: #e8e8e8;
+	border-radius: 0px 6px 6px 0px;
+	border: none;
+	padding: 3px 10px 3px 10px;
+	flex-grow: 1;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+/*
+** Whitelists container
+*/
+cont-whitelists {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	align-items: stretch;
+	justify-content: center;
+}
+
+/*
+** Extension name header, text logo, icon logo, and its animation
+*/
+.identity {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  padding: 10px 0px 5px 0px;
+}
+
+.logo {
+	animation: scrubbing 1s ease 1;
+	transform-origin: center center;
+	pointer-events: none;
+	animation-delay: 1s;
+}
+
+@keyframes scrubbing {
+    0% {
+        transform: translate(0, 0) rotate(0deg) scale(1, 1);
+    }
+    10% {
+        transform: translate(15px, -15px) rotate(-15deg) scale(1.1, 1);
+    }
+    20% {
+        transform: translate(40px, 15px) rotate(15deg) scale(1, 1.1);
+    }
+    30% {
+        transform: translate(20px, -10px) rotate(-15deg) scale(1.1, 1);
+    }
+    40% {
+        transform: translate(40px, 15px) rotate(15deg) scale(1, 1.1);
+    }
+    75% {
+        transform: translate(25px, -15px) rotate(-15deg) scale(1.1, 1);
+    }
+    100% {
+        transform: translate(0, 0) rotate(0deg) scale(1, 1);
+    }
+}
+
+.cont-extname {
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+
+extname {
+	font-size: 50px;
+  line-height: 34px;
+  font-family: sans-serif;
+  font-variant: all-small-caps;
+  letter-spacing: -1px;
+	
+	background-color: #e9ff00;
+  background-image: linear-gradient(45deg, #008dff, #e9ff00, #00c05e, #c2ff00);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+/*
+** Container of the whole browsing data type content
+*/
+cont {
+	color: #e9eef7;
+	background-color: #ffffff14;
+	border: 2px solid #ffffff14;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 6px;
+	width: 500px;
+	
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  justify-content: space-between;
+  align-items: stretch;
+}
+}
+cont:has(li[class="anim-blink"]) {
+  border: 2px solid #ffd651;
+}
+
+/*
+** Container of domain adding inputs (the plus sign button, and the text input)
+*/ 
+.cont-inputs {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  height: 40px;
+}
+
+/*
+** Plus sign button to add a domain to a whitelist
+*/
+.btn-add {
+  background-color: #b7fd05;
+  border: none;
+  border-radius: 6px 0px 0px 6px;
+  padding: 3px 15px 3px 15px;
+  cursor: pointer;
+  font-size: 25px;
+	width: 16px;
+}
+.btn-add:hover {
+	background-color: #e5fd05;
+}
+
+/*
+** Minus sign button to remove a domain from a whitelist
+*/
+.btn-rem {
+	background-color: #ffffff00;
+	border: none;
+	border-radius: 50%;
+	margin-right: 3px;
+	font-weight: bold;
+	width: 18px;
+	height: 18px;
+	cursor: pointer;
+	opacity: 0;
+	
+  background-position: 50%;
+  background-image: url(img/svg/minus_r.svg);
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  background-size: 10px;
+}
+.btn-rem:hover {
+	background-color: #ff0000;
+  background-image: url(img/svg/minus_w.svg);
+}
+
+/*
+** Whitelist listing
+*/
+details { display: inline-block; }
+details:has(> ul:empty) {
+	display: none;
+}
+
+summary { user-select: none; padding-top: 10px; cursor: pointer; color: #aaa; }
+summary:hover { color: #fff; }
+summary:after {
+	content: '(' attr(count) ')';
+  margin-left: 4px;
+  color: #ffd651;
+}
+
+ul {
+	margin: 5px 0px 0px 0px;
+	display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+	list-style: none;
+}
+
+li {
+	padding: 4px;
+}
+li:has(.btn-rem:hover) {
+	color: #ff0000;
+}
+li:hover .btn-rem {
+	opacity: 1;
+}
+
+/*
+** Browsing data text heading
+*/
+cat {
+	user-select: none;
+	font-size: 26px;
+	padding: 0px 0px 6px 0px;
+}
+
+/*
+** Specificities for the backup container
+*/
+#cont-backup {
+	display: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/*
+** Container for the both Export and Import buttons
+*/
+.cont-menu-backup {
+  user-select: none;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+** 
+*/
+.menu-backup {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}
+
+/*
+** Global style for Export and Import buttons
+*/
+.btn-backup {
+  background-color: #b7fd05;
+  border: none;
+  padding: 5px 10px 5px 10px;
+  cursor: pointer;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+.btn-backup:hover {
+	background-color: #e5fd05;
+}
+
+/*
+** Specific border radius for Export and Import buttons
+*/
+label[for="btn-export"] {
+	border-radius: 6px 0px 0px 6px;
+}
+label[for="btn-import"] {
+	border-radius: 0px 6px 6px 0px;
+}
+
+/*
+** Animation of a whitelisted domain corresponding to the current tab url
+*/
+.anim-blink {
+	animation: animation-blink 1s step-start infinite;
+}
+@keyframes animation-blink {
+	75% {
+    color: #04d02e;
+  }
+}
+
+/*
+** Note box
+*/
+.note-cont
+{
+	border-radius: 6px;
+	margin: 10px 0px 0px 0px;
+	background-color: rgb(0 0 0 / 26%);
+	border-left: solid 4px #b7fd05c4;
+	padding: 10px 15px 10px 15px;
+	display: none;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.note-cont:before {
+	content: '\002139\00FE0F';
+	font-size: 20px;
+	display: inline-block;
+	position: relative;
+	padding: 0px 20px 0px 10px;
+}
+.note {
+  width: 100%;
+}
+.note-cont p {
+  margin: 0;
+  padding: 0;
+}
+noteDelim {
+  display: block;
+  position: relative;
+  height: 1px;
+  margin: 10px 0px 10px 0px;
+  background-color: #b7fd0557;
+}
+
+/*
+** Header of a browsing data type, contains its text name, the Clear and the Switch buttons
+*/
+.cat-header {
+	display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+/*
+** Clear button
+*/
+.btnClear {
+	background-color: #ff797921;
+	border: none;
+	border-radius: 100%;
+	padding: 10px;
+	cursor: pointer;
+	width: 16px;
+	height: 16px;
+}
+.btnClear:hover {
+	background-color: #ff797950;
+}
+.btnClear:disabled {
+	cursor: not-allowed;
+}
+
+/*
+** Switch ON/OFF button
+*/
+.cont-switchclear {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: flex-start;
+	justify-content: space-between;
+	width: 130px;
+}
+.button-cover,
+.knobs,
+.layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.switch {
+  position: relative;
+  width: 74px;
+  height: 36px;
+  overflow: hidden;
+}
+.switch.r,
+.switch.r .layer {
+  border-radius: 100px;
+}
+.checkbox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 3;
+}
+.knobs {
+  z-index: 2;
+}
+.layer {
+  width: 100%;
+  background-color: #ff000052;
+  transition: 0.3s ease all;
+  z-index: 1;
+}
+.switch .knobs:before {
+  content: " ";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 20px;
+  height: 10px;
+  padding: 9px 4px;
+  background-color: #f44336;
+  border-radius: 50%;
+  transition: 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;background-size: 14px;
+  background-position: 50%;
+  background-image: url(img/svg/unchecked.svg);
+  background-origin: border-box;
+  background-repeat: no-repeat;
+}
+.switch .checkbox:checked + .knobs:before {
+  content: " ";
+  left: 42px;
+  background-color: #04d02e;
+  background-position: 50%;
+  background-image: url(img/svg/checked.svg);
+  background-origin: border-box;
+  background-repeat: no-repeat;
+}
+.switch .checkbox:checked ~ .layer {
+  background-color: #00000052;
+}
+.switch .knobs,
+.switch .knobs:before,
+.switch .layer {
+  transition: 0.3s ease all;
+}
+
+/*
+** Modal window, its text content, its Confirm and Cancel buttons
+*/
+#modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 5;
+	color: black;
+	font-size: 16px;
+	
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+#modalContent {
+  border: 0;
+  border-radius: 6px;
+  background-color: #f8f8f8;
+  padding: 10px 20px 20px 20px;
+	margin: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: stretch;
+	width: fit-content;
+}
+mdl-inputs {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: space-between;
+	align-items: flex-end;
+}
+.btn-yesno {
+  border: none;
+  padding: 18px 38px 18px 38px;
+  background-size: 15px;
+  cursor: pointer;
+  border-radius: 7px 7px 7px 7px;
+}
+.btn-yesno.yes {
+  background-color: #46b515;
+  background-position: 50%;
+  background-image: url(img/svg/checked.svg);
+  background-origin: border-box;
+  background-repeat: no-repeat;
+}
+.btn-yesno.yes:hover {
+	background-color: #55ce1f;
+}
+.btn-yesno.no {
+  background-color: #b51515;
+  background-position: 50%;
+  background-image: url(img/svg/cancel.svg);
+  background-origin: border-box;
+  background-repeat: no-repeat;
+}
+.btn-yesno.no:hover {
+	background-color: #ce1f1f;
+}

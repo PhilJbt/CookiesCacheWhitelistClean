@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "Покажи моју листу"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>Колачићи</i> захтевају:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>Колачићи</i> су мале датотеке са подацима које веб-сајтови чувају у вашем претраживачу да би запамтили ваша подешавања, статус пријаве и пратили активност прегледања."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Цацхе</i> захтевају:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Цацхе</i> је привремено складиштење ресурса веб странице (као што су слике, скрипте, итд.) да би се убрзало време учитавања странице током будућих посета."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>ЛоцалСтораге</i> захтевају:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>ЛоцалСтораге</i> је упоран механизам за складиштење малих количина података (парова кључ-вредност) локално у претраживачу, којем веб локација може приступити чак и након затварања претраживача."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>ВебСКЛ</i> захтевају:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>ВебСКЛ</i> је застарели механизам за складиштење базе података заснован на претраживачу, који омогућава складиштење структурираних података у базама података базираним на СКЛ-у."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>ФилеСистемс</i> захтевају:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>ФилесСистемс</i> омогућава веб локацијама да чувају датотеке и податке у систему датотека вашег рачунара, омогућавајући веће и сложеније складиштење података."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>ИндекедДБ</i> захтевају:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>индекедДБ</i> АПИ ниског нивоа за складиштење великих количина структурираних података, укључујући датотеке и блобове, омогућавајући ванмрежне могућности."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>СервицеВоркерс</i> захтевају:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>СервицеВоркерс</i> су скрипте које се покрећу у позадини вашег прегледача, омогућавајући функције као што су приступ ван мреже, синхронизација у позадини и пусх обавештења."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>ЦацхеСтораге</i> захтевају:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>ЦацхеСтораге</i> је механизам за складиштење који користи СервицеВоркерс за кеширање мрежних захтева и одговора ради приступа ван мреже и бржег учитавања."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa Главно име домена (нпр. <b>гоогле.цом</b> уместо да <b>аццоунт.гоогле.цом</b> или <b>ввв.гоогле.цом</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa Тачне поддомене циљаних страница (нпр. <b>аццоунт.гоогле.цом</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa Уклањање <b>http://</b> или <b>https://</b> протоколи"
+  },
+  "ih_btnExport": {
+    "message": "Извоз"
+  },
+  "ih_btnImport": {
+    "message": "Увоз"
+  },
+  "ph_domExample": {
+    "message": "пример.rs"
+  },
+  "sz_promptConfirm": {
+    "message": "Да ли сте сигурни да чистите није на белој листи <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "%TYPE% који није на белој листи је успешно обрисан."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

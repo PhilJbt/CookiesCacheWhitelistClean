@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "Rodyti mano sąrašą"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>Slapukai</i> reikalauti:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>Slapukai</i> yra nedideli duomenų failai, kuriuos svetainės saugo jūsų naršyklėje, kad atsimintų jūsų nuostatas, prisijungimo būseną ir sektų naršymo veiklą."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Talpykla</i> reikalauti:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Talpykla</i> yra laikinas tinklalapio išteklių (pvz., vaizdų, scenarijų ir t. t.) saugykla, siekiant paspartinti puslapio įkėlimo laiką būsimų apsilankymų metu."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>Vietinė saugykla</i> reikalauti:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>Vietinė saugykla</i> yra nuolatinis saugojimo mechanizmas, skirtas nedideliems duomenų kiekiams (raktų-reikšmių poroms) saugoti naršyklėje, kurį svetainė gali pasiekti net uždarius naršyklę."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> reikalauti:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> yra pasenęs naršyklės duomenų bazių saugojimo mechanizmas, leidžiantis struktūrinius duomenis saugoti SQL duomenų bazėse."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>Failų sistemos</i> reikalauti:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>Failų sistemos</i> leidžia svetainėms saugoti failus ir duomenis jūsų kompiuterio failų sistemoje, taip įgalinant didesnį ir sudėtingesnį duomenų saugojimą."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>IndexedDB</i> reikalauti:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>indeksuotas DB</i> žemo lygio API, skirta dideliems struktūrinių duomenų kiekiams saugoti, įskaitant failus ir blob'us, leidžiančius naudotis neprisijungus."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>Aptarnavimo darbuotojai</i> reikalauti:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>Aptarnavimo darbuotojai</i> yra scenarijai, veikiantys jūsų naršyklės fone, įgalinantys tokias funkcijas kaip prieiga neprisijungus, sinchronizavimas fone ir tiesioginiai pranešimai."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>CacheStorage</i> reikalauti:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>CacheStorage</i> yra saugojimo mechanizmas, kurį „ServiceWorkers“ naudoja tinklo užklausoms ir atsakymams išsaugoti talpykloje, kad būtų galima pasiekti neprisijungus ir greičiau įkelti."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa Pagrindinis domeno pavadinimas (pvz. <b>google.com</b> vietoj <b>account.google.com</b> arba <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa Tikslūs tikslinių puslapių padomeniai (pvz., <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa pašalinus <b>http://</b> arba <b>https://</b> protokolai"
+  },
+  "ih_btnExport": {
+    "message": "Eksportuoti"
+  },
+  "ih_btnImport": {
+    "message": "Importuoti"
+  },
+  "ph_domExample": {
+    "message": "pavyzdys.lt"
+  },
+  "sz_promptConfirm": {
+    "message": "Ar tikrai valysite, neįtraukėte į baltąjį sąrašą <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "Neįtraukti į baltąjį sąrašą %TYPE% buvo sėkmingai išvalyti."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

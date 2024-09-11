@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "Mostra la mia lista"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>Biscotti</i> richiedere:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>Biscotti</i> sono piccoli file di dati memorizzati dai siti Web sul tuo browser per ricordare le tue preferenze, lo stato di accesso e tenere traccia dell'attività di navigazione."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Cache</i> richiedere:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Cache</i> è l'archiviazione temporanea delle risorse della pagina Web (come immagini, script, ecc.) per accelerare i tempi di caricamento della pagina durante le visite future."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>LocalStorage</i> richiedere:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>LocalStorage</i> è un meccanismo di archiviazione persistente per memorizzare piccole quantità di dati (coppie chiave-valore) localmente nel browser, accessibile dal sito web anche dopo la chiusura del browser."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> richiedere:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> è un meccanismo di archiviazione di database basato su browser deprecato, che consente di archiviare dati strutturati in database basati su SQL."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>FileSystem</i> richiedere:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>FileSystem</i> consente ai siti Web di archiviare file e dati nel file system del computer, consentendo un'archiviazione di dati più ampia e complessa."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>DB indicizzato</i> richiedere:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>DB indicizzato</i> API di basso livello per l'archiviazione di grandi quantità di dati strutturati, inclusi file e BLOB, che consentono funzionalità offline."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>ServiceWorkers</i> richiedere:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>ServiceWorkers</i> sono script eseguiti in background nel browser che abilitano funzionalità come l'accesso offline, la sincronizzazione in background e le notifiche push."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>CacheStorage</i> richiedere:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>CacheStorage</i> è un meccanismo di archiviazione utilizzato dai ServiceWorkers per memorizzare nella cache le richieste e le risposte di rete per l'accesso offline e tempi di caricamento più rapidi."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa Il nome del dominio principale (es. <b>google.com</b> invece di <b>account.google.com</b> O <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa I sottodomini esatti delle pagine target (ad es. <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa La rimozione del <b>http://</b> O <b>https://</b> protocolli"
+  },
+  "ih_btnExport": {
+    "message": "Esportare"
+  },
+  "ih_btnImport": {
+    "message": "Importare"
+  },
+  "ph_domExample": {
+    "message": "esempio.it"
+  },
+  "sz_promptConfirm": {
+    "message": "Sei sicuro di pulire non inserito nella whitelist? <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "%TYPE% non inseriti nella whitelist sono stati cancellati con successo."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

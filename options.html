@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="ih_extTitle_12"></title>
+	<link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<!-- Custom modal -->
+  <div id="modal">
+    <div id="modalContent">
+      <p id="modalMsg"></p>
+			<mdl-inputs>
+				<button id="modalbtnn" class="btn-yesno no"></button><button id="modalbtny" class="btn-yesno yes"></button>
+			</mdl-inputs>
+    </div>
+  </div>
+	<!-- Identity -->
+  <div class="identity">
+		<img class="logo" src="img/icn48.png" alt="logo">
+		<div class="cont-extname">
+			<extname data-i18n="ih_extTitle_l1"></extname>
+			<extname data-i18n="ih_extTitle_l2"></extname>
+		</div>
+	</div>
+	<!-- Whitelists container -->
+	<cont-whitelists>
+		<!-- Cookies -->
+		<cont>
+			<cont-top>
+				<div class="cat-header">
+					<cat id="cat-cookies">Cookies</cat>
+					<div class="cont-switchclear">
+						<input type="image" class="btnClear" src="img/svg/erase.svg" data-type="cookies"></button>
+						<div class="switch r">
+							<input type="checkbox" class="checkbox" id="cookiesSwitcher" checked/>
+							<div class="knobs"></div>
+							<div class="layer"></div>
+						</div>
+					</div>
+				</div>
+				<div class="cont-inputs">
+					<input type="image" src="img/svg/add.svg" class="btn-add" id="add-cookies-domain"></button><input type="text" id="cookies-domain" data-i18n="ph_domExample" placeholder="">
+				</div>
+				<details id="details-cookies">
+					<summary data-i18n="ih_summaryExpand" id="sumCount-cookies"></summary>
+					<ul id="cookies-whitelist"></ul>
+				</details>
+			</cont-top>
+			<div class="note-cont">
+				<div class="note">
+					<p data-i18n="ih_noteCookiesReq"></p>
+					<p data-i18n="ih_noteDomainMain"></p>
+					<p data-i18n="ih_noteProtocolsRem"></p>
+					<noteDelim></noteDelim>
+					<p data-i18n="ih_noteCookiesDesc"></p>
+				</div>
+			</div>
+		</cont>
+		<!-- Cache -->
+		<cont>
+			<cont-top>
+				<div class="cat-header">
+					<cat id="cat-cache">Cache</cat>
+					<div class="cont-switchclear">
+						<input type="image" class="btnClear" src="img/svg/erase.svg" data-type="cache"></button>
+						<div class="switch r">
+							<input type="checkbox" class="checkbox" id="cacheSwitcher" checked/>
+							<div class="knobs"></div>
+							<div class="layer"></div>
+						</div>
+					</div>
+				</div>
+				<div class="cont-inputs">
+					<input type="image" src="img/svg/add.svg" class="btn-add" id="add-cache-domain"></button><input type="text" id="cache-domain" data-i18n="ph_domExample" placeholder="">
+				</div>
+				<details id="details-cache">
+					<summary data-i18n="ih_summaryExpand" id="sumCount-cache"></summary>
+					<ul id="cache-whitelist"></ul>
+				</details>
+			</cont-top>
+			<div class="note-cont">
+				<div class="note">
+					<p data-i18n="ih_noteCacheReq"></p>
+					<p data-i18n="ih_noteDomainSub"></p>
+					<p data-i18n="ih_noteProtocolsRem"></p>
+					<noteDelim></noteDelim>
+					<p data-i18n="ih_noteCacheDesc"></p>
+				</div>
+			</div>
+		</cont>
+		<!-- LocalStorage -->
+		<cont>
+			<cont-top>
+				<div class="cat-header">
+					<cat id="cat-localStorage">LocalStorage</cat>
+					<div class="cont-switchclear">
+						<input type="image" class="btnClear" src="img/svg/erase.svg" data-type="localStorage"></button>
+						<div class="switch r">
+							<input type="checkbox" class="checkbox" id="localStorageSwitcher" checked/>
+							<div class="knobs"></div>
+							<div class="layer"></div>
+						</div>
+					</div>
+				</div>
+				<div class="cont-inputs">
+					<input type="image" src="img/svg/add.svg" class="btn-add" id="add-localStorage-domain"></button><input type="text" id="localStorage-domain" data-i18n="ph_domExample" placeholder="">
+				</div>
+				<details id="details-localStorage">
+					<summary data-i18n="ih_summaryExpand" id="sumCount-localStorage"></summary>
+					<ul id="localStorage-whitelist"></ul>
+				</details>
+			</cont-top>
+			<div class="note-cont">
+				<div class="note">
+					<p data-i18n="ih_noteLocalStorageReq"></p>
+					<p data-i18n="ih_noteDomainSub"></p>
+					<p data-i18n="ih_noteProtocolsRem"></p>
+					<noteDelim></noteDelim>
+					<p data-i18n="ih_noteLocalStorageDesc"></p>
+				</div>
+			</div>
+		</cont>
+		<!-- WebSQL -->
+		<cont>
+			<cont-top>
+				<div class="cat-header">
+					<cat id="cat-webSQL">WebSQL</cat>
+					<div class="cont-switchclear">
+						<input type="image" class="btnClear" src="img/svg/erase.svg" data-type="webSQL"></button>
+						<div class="switch r">
+							<input type="checkbox" class="checkbox" id="webSQLSwitcher" checked/>
+							<div class="knobs"></div>
+							<div class="layer"></div>
+						</div>
+					</div>
+				</div>
+				<div class="cont-inputs">
+					<input type="image" src="img/svg/add.svg" class="btn-add" id="add-webSQL-domain"></button><input type="text" id="webSQL-domain" data-i18n="ph_domExample" placeholder="">
+				</div>
+				<details id="details-webSQL">
+					<summary data-i18n="ih_summaryExpand" id="sumCount-webSQL"></summary>
+					<ul id="webSQL-whitelist"></ul>
+				</details>
+			</cont-top>
+			<div class="note-cont">
+				<div class="note">
+					<p data-i18n="ih_noteWebSQLReq"></p>
+					<p data-i18n="ih_noteDomainSub"></p>
+					<p data-i18n="ih_noteProtocolsRem"></p>
+					<noteDelim></noteDelim>
+					<p data-i18n="ih_noteWebSQLDesc"></p>
+				</div>
+			</div>
+		</cont>
+		<!-- FileSystems -->
+		<cont>
+			<cont-top>
+				<div class="cat-header">
+					<cat id="cat-fileSystems">FileSystems</cat>
+					<div class="cont-switchclear">
+						<input type="image" class="btnClear" src="img/svg/erase.svg" data-type="fileSystems"></button>
+						<div class="switch r">
+							<input type="checkbox" class="checkbox" id="fileSystemsSwitcher" checked/>
+							<div class="knobs"></div>
+							<div class="layer"></div>
+						</div>
+					</div>
+				</div>
+				<div class="cont-inputs">
+					<input type="image" src="img/svg/add.svg" class="btn-add" id="add-fileSystems-domain"></button><input type="text" id="fileSystems-domain" data-i18n="ph_domExample" placeholder="">
+				</div>
+				<details id="details-fileSystems">
+					<summary data-i18n="ih_summaryExpand" id="sumCount-fileSystems"></summary>
+					<ul id="fileSystems-whitelist"></ul>
+				</details>
+			</cont-top>
+			<div class="note-cont">
+				<div class="note">
+					<p data-i18n="ih_noteFileSystemsReq"></p>
+					<p data-i18n="ih_noteDomainSub"></p>
+					<p data-i18n="ih_noteProtocolsRem"></p>
+					<noteDelim></noteDelim>
+					<p data-i18n="ih_noteFileSystemsDesc"></p>
+				</div>
+			</div>
+		</cont>
+		<!-- IndexedDB -->
+		<cont>
+			<cont-top>
+				<div class="cat-header">
+					<cat id="cat-indexedDB">IndexedDB</cat>
+					<div class="cont-switchclear">
+						<input type="image" class="btnClear" src="img/svg/erase.svg" data-type="indexedDB"></button>
+						<div class="switch r">
+							<input type="checkbox" class="checkbox" id="indexedDBSwitcher" checked/>
+							<div class="knobs"></div>
+							<div class="layer"></div>
+						</div>
+					</div>
+				</div>
+				<div class="cont-inputs">
+					<input type="image" src="img/svg/add.svg" class="btn-add" id="add-indexedDB-domain"></button><input type="text" id="indexedDB-domain" data-i18n="ph_domExample" placeholder="">
+				</div>
+				<details id="details-indexedDB">
+					<summary data-i18n="ih_summaryExpand" id="sumCount-indexedDB"></summary>
+					<ul id="indexedDB-whitelist"></ul>
+				</details>
+			</cont-top>
+			<div class="note-cont">
+				<div class="note">
+					<p data-i18n="ih_noteIndexedDBReq"></p>
+					<p data-i18n="ih_noteDomainSub"></p>
+					<p data-i18n="ih_noteProtocolsRem"></p>
+					<noteDelim></noteDelim>
+					<p data-i18n="ih_noteIndexedDBDesc"></p>
+				</div>
+			</div>
+		</cont>
+		<!-- ServiceWorkers -->
+		<cont>
+			<cont-top>
+				<div class="cat-header">
+					<cat id="cat-serviceWorkers">ServiceWorkers</cat>
+					<div class="cont-switchclear">
+						<input type="image" class="btnClear" src="img/svg/erase.svg" data-type="serviceWorkers"></button>
+						<div class="switch r">
+							<input type="checkbox" class="checkbox" id="serviceWorkersSwitcher" checked/>
+							<div class="knobs"></div>
+							<div class="layer"></div>
+						</div>
+					</div>
+				</div>
+				<div class="cont-inputs">
+					<input type="image" src="img/svg/add.svg" class="btn-add" id="add-serviceWorkers-domain"></button><input type="text" id="serviceWorkers-domain" data-i18n="ph_domExample" placeholder="">
+				</div>
+				<details id="details-serviceWorkers">
+					<summary data-i18n="ih_summaryExpand" id="sumCount-serviceWorkers"></summary>
+					<ul id="serviceWorkers-whitelist"></ul>
+				</details>
+			</cont-top>
+			<div class="note-cont">
+				<div class="note">
+					<p data-i18n="ih_noteServiceWorkersReq"></p>
+					<p data-i18n="ih_noteDomainSub"></p>
+					<p data-i18n="ih_noteProtocolsRem"></p>
+					<noteDelim></noteDelim>
+					<p data-i18n="ih_noteServiceWorkersDesc"></p>
+				</div>
+			</div>
+		</cont>
+		<!-- CacheStorage -->
+		<cont>
+			<cont-top>
+				<div class="cat-header">
+					<cat id="cat-cacheStorage">CacheStorage</cat>
+					<div class="cont-switchclear">
+						<input type="image" class="btnClear" src="img/svg/erase.svg" data-type="cacheStorage"></button>
+						<div class="switch r">
+							<input type="checkbox" class="checkbox" id="cacheStorageSwitcher" checked/>
+							<div class="knobs"></div>
+							<div class="layer"></div>
+						</div>
+					</div>
+				</div>
+				<div class="cont-inputs">
+					<input type="image" src="img/svg/add.svg" class="btn-add" id="add-cacheStorage-domain"></button><input type="text" id="cacheStorage-domain" data-i18n="ph_domExample" placeholder="">
+				</div>
+				<details id="details-cacheStorage">
+					<summary data-i18n="ih_summaryExpand" id="sumCount-cacheStorage"></summary>
+					<ul id="cacheStorage-whitelist"></ul>
+				</details>
+			</cont-top>
+			<div class="note-cont">
+				<div class="note">
+					<p data-i18n="ih_noteCacheStorageReq"></p>
+					<p data-i18n="ih_noteDomainSub"></p>
+					<p data-i18n="ih_noteProtocolsRem"></p>
+					<noteDelim></noteDelim>
+					<p data-i18n="ih_noteCacheStorageDesc"></p>
+				</div>
+			</div>
+		</cont>
+		<!-- Backup menu -->
+		<cont id="cont-backup">
+			<cat class="backup" id="cat-cacheStorage">Backup</cat>
+			<div class="cont-menu-backup">
+				<div class="menu-backup">
+					<label for="btn-export" class="btn-backup" data-i18n="ih_btnExport"></label>
+					<button id="btn-export" hidden></button>			
+					<label for="btn-import" class="btn-backup" data-i18n="ih_btnImport"></label>
+					<input id="btn-import" type="file" accept=".txt" hidden/>
+				</div>
+			</div>
+		</cont>
+	</cont-whitelists>
+	<!-- scripts -->
+  <script src="psl.min.js"></script>
+	<script src="urlTools.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>

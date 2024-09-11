@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "મારી યાદી બતાવો"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>કૂકીઝ</i> જરૂર છે:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>કૂકીઝ</i> તમારી પસંદગીઓ, લૉગિન સ્થિતિ અને બ્રાઉઝિંગ પ્રવૃત્તિને ટ્રૅક કરવા માટે તમારા બ્રાઉઝર પર વેબસાઇટ્સ દ્વારા સંગ્રહિત નાની ડેટા ફાઇલો છે."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>કેશ</i> જરૂર છે:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>કેશ</i> ભવિષ્યની મુલાકાતો દરમિયાન પૃષ્ઠ લોડ સમયને ઝડપી બનાવવા માટે વેબ પૃષ્ઠ સંસાધનોનો અસ્થાયી સંગ્રહ છે (જેમ કે છબીઓ, સ્ક્રિપ્ટ્સ, વગેરે)."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>લોકલ સ્ટોરેજ</i> જરૂર છે:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>લોકલ સ્ટોરેજ</i> બ્રાઉઝરમાં સ્થાનિક રીતે થોડી માત્રામાં ડેટા (કી-વેલ્યુ પેર) સ્ટોર કરવા માટે સતત સ્ટોરેજ મિકેનિઝમ છે, બ્રાઉઝર બંધ થયા પછી પણ વેબસાઇટ દ્વારા ઍક્સેસ કરી શકાય છે."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>વેબએસક્યુએલ</i> જરૂર છે:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>વેબએસક્યુએલ</i> એક નાપસંદ બ્રાઉઝર-આધારિત ડેટાબેઝ સ્ટોરેજ મિકેનિઝમ છે, જે સ્ટ્રક્ચર્ડ ડેટાને SQL-આધારિત ડેટાબેસેસમાં સંગ્રહિત કરવાની મંજૂરી આપે છે."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>ફાઇલસિસ્ટમ્સ</i> જરૂર છે:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>ફાઇલસિસ્ટમ્સ</i> વેબસાઇટ્સને તમારા કમ્પ્યુટરની ફાઇલસિસ્ટમ પર ફાઇલો અને ડેટા સ્ટોર કરવાની મંજૂરી આપે છે, જે મોટા અને વધુ જટિલ ડેટા સ્ટોરેજને સક્ષમ કરે છે."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>અનુક્રમિત ડીબી</i> જરૂર છે:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>અનુક્રમિત ડીબી</i> ફાઇલો અને બ્લોબ્સ સહિત મોટી માત્રામાં સ્ટ્રક્ચર્ડ ડેટા સ્ટોર કરવા માટે નિમ્ન-સ્તરની API, ઑફલાઇન ક્ષમતાઓને મંજૂરી આપે છે."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>સર્વિસ વર્કર્સ</i> જરૂર છે:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>સર્વિસ વર્કર્સ</i> તમારા બ્રાઉઝરની પૃષ્ઠભૂમિમાં ચાલતી સ્ક્રિપ્ટો છે, જે ઑફલાઇન ઍક્સેસ, પૃષ્ઠભૂમિ સમન્વયન અને પુશ સૂચનાઓ જેવી સુવિધાઓને સક્ષમ કરે છે."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>CacheStorage</i> જરૂર છે:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>CacheStorage</i> ઑફલાઇન ઍક્સેસ અને ઝડપી લોડ સમય માટે નેટવર્ક વિનંતીઓ અને પ્રતિસાદોને કૅશ કરવા માટે સર્વિસ વર્કર્સ દ્વારા ઉપયોગમાં લેવાતી સ્ટોરેજ મિકેનિઝમ છે."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa મુખ્ય ડોમેન નામ (દા.ત. <b>google.com</b> તેના બદલે <b>account.google.com</b> અથવા <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa લક્ષિત પૃષ્ઠોના ચોક્કસ સબડોમેન્સ (દા.ત. <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa દૂર કરવું <b>http://</b> અથવા <b>https://</b> પ્રોટોકોલ"
+  },
+  "ih_btnExport": {
+    "message": "નિકાસ કરો"
+  },
+  "ih_btnImport": {
+    "message": "આયાત કરો"
+  },
+  "ph_domExample": {
+    "message": "ઉદાહરણ.in"
+  },
+  "sz_promptConfirm": {
+    "message": "શું તમે ખાતરી કરો છો કે વ્હાઇટલિસ્ટેડ નથી <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "વ્હાઇટલિસ્ટેડ નથી %TYPE% સફળતાપૂર્વક સાફ કરવામાં આવી છે."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

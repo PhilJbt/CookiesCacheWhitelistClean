@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "Pokaži moj seznam"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>Piškotki</i> zahtevajo:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>Piškotki</i> so majhne podatkovne datoteke, ki jih spletna mesta shranijo v vaš brskalnik, da si zapomnijo vaše nastavitve, status prijave in sledijo dejavnosti brskanja."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Predpomnilnik</i> zahtevajo:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Predpomnilnik</i> je začasna shramba virov spletne strani (kot so slike, skripti itd.), da se pospeši nalaganje strani med prihodnjimi obiski."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>Lokalno skladiščenje</i> zahtevajo:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>Lokalno skladiščenje</i> je vztrajni mehanizem za shranjevanje majhnih količin podatkov (pari ključ-vrednost) lokalno v brskalniku, do katerega lahko spletno mesto dostopa tudi po zaprtju brskalnika."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> zahtevajo:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> je zastarel mehanizem za shranjevanje baze podatkov, ki temelji na brskalniku, ki omogoča shranjevanje strukturiranih podatkov v bazah podatkov, ki temeljijo na SQL."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>Datotečni sistemi</i> zahtevajo:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>Datotečni sistemi</i> omogoča spletnim mestom shranjevanje datotek in podatkov v datotečni sistem vašega računalnika, kar omogoča večje in bolj zapleteno shranjevanje podatkov."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>indeksiranaDB</i> zahtevajo:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>indeksiranaDB</i> nizkonivojski API za shranjevanje velikih količin strukturiranih podatkov, vključno z datotekami in blobi, kar omogoča zmogljivosti brez povezave."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>Storitveni delavci</i> zahtevajo:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>Storitveni delavci</i> so skripti, ki se izvajajo v ozadju vašega brskalnika in omogočajo funkcije, kot so dostop brez povezave, sinhronizacija v ozadju in potisna obvestila."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>PredpomnilnikStorage</i> zahtevajo:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>PredpomnilnikStorage</i> je mehanizem za shranjevanje, ki ga uporablja ServiceWorkers za predpomnilnik omrežnih zahtev in odgovorov za dostop brez povezave in hitrejše nalaganje."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa Ime glavne domene (npr. <b>google.com</b> namesto <b>account.google.com</b> oz <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa Točne poddomene ciljnih strani (npr. <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa Odstranitev <b>http://</b> oz <b>https://</b> protokoli"
+  },
+  "ih_btnExport": {
+    "message": "Izvozi"
+  },
+  "ih_btnImport": {
+    "message": "Uvozi"
+  },
+  "ph_domExample": {
+    "message": "primer.si"
+  },
+  "sz_promptConfirm": {
+    "message": "Ali ste prepričani, da očistite ni na seznamu dovoljenih <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "%TYPE%, ki niso na seznamu dovoljenih, so bili uspešno izbrisani."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

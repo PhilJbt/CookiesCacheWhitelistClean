@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "Показать мой список"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>Файлы cookie</i> требовать:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>Файлы cookie</i> — это небольшие файлы данных, которые веб-сайты хранят в вашем браузере для запоминания ваших предпочтений, статуса входа и отслеживания активности в Интернете."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Кэш</i> требовать:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Кэш</i> — это временное хранилище ресурсов веб-страницы (например, изображений, скриптов и т. д.) для ускорения загрузки страницы во время будущих посещений."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>Локальное хранилище</i> требовать:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>Локальное хранилище</i> — это механизм постоянного хранения для хранения небольших объемов данных (пар ключ-значение) локально в браузере, доступный веб-сайту даже после закрытия браузера."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>ВебSQL</i> требовать:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>ВебSQL</i> — устаревший механизм хранения базы данных на основе браузера, позволяющий хранить структурированные данные в базах данных на основе SQL."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>Файловые системы</i> требовать:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>ФайлыСистемы</i> позволяет веб-сайтам хранить файлы и данные в файловой системе вашего компьютера, что позволяет хранить более крупные и сложные данные."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>ИндекседБД</i> требовать:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>индексированная БД</i> низкоуровневый API для хранения больших объемов структурированных данных, включая файлы и BLOB-объекты, что обеспечивает возможность работы в автономном режиме."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>Сервисворкеры</i> требовать:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>Сервисворкеры</i> — это сценарии, работающие в фоновом режиме вашего браузера и обеспечивающие такие функции, как автономный доступ, фоновая синхронизация и push-уведомления."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>КэшХранилище</i> требовать:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>КэшХранилище</i> — это механизм хранения, используемый ServiceWorkers для кэширования сетевых запросов и ответов для автономного доступа и ускорения загрузки."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa Основное доменное имя (например. <b>google.com</b> вместо <b>аккаунт.google.com</b> или <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa Точные субдомены целевых страниц (например. <b>аккаунт.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa Удаление <b>http://</b> или <b>https://</b> протоколы"
+  },
+  "ih_btnExport": {
+    "message": "Экспорт"
+  },
+  "ih_btnImport": {
+    "message": "Импорт"
+  },
+  "ph_domExample": {
+    "message": "пример.рф"
+  },
+  "sz_promptConfirm": {
+    "message": "Вы уверены, что очистите не в белом списке? <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "%TYPE%, не внесенные в белый список, успешно удалены."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

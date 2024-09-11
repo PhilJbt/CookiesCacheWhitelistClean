@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "Vis min liste"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>Cookies</i> kræve:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>Cookies</i> er små datafiler gemt af websteder i din browser for at huske dine præferencer, login-status og spore browsingaktivitet."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Cache</i> kræve:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Cache</i> er midlertidig lagring af websideressourcer (som billeder, scripts osv.) for at fremskynde sideindlæsningstider under fremtidige besøg."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>LocalStorage</i> kræve:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>LocalStorage</i> er en vedvarende lagringsmekanisme til lagring af små mængder data (nøgle-værdi-par) lokalt i browseren, tilgængelig for webstedet, selv efter at browseren er lukket."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> kræve:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> er en forældet browserbaseret databaselagringsmekanisme, der gør det muligt at lagre strukturerede data i SQL-baserede databaser."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>Filsystemer</i> kræve:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>Filsystemer</i> giver websteder mulighed for at gemme filer og data på din computers filsystem, hvilket muliggør større og mere kompleks datalagring."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>IndekseretDB</i> kræve:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>indekseretDB</i> API på lavt niveau til lagring af store mængder strukturerede data, inklusive filer og blobs, hvilket giver mulighed for offline-funktioner."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>Servicearbejdere</i> kræve:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>Servicearbejdere</i> er scripts, der kører i baggrunden af din browser, og aktiverer funktioner som offlineadgang, baggrundssynkronisering og push-meddelelser."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>CacheStorage</i> kræve:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>CacheStorage</i> er en lagermekanisme, der bruges af ServiceWorkers til at cache netværksanmodninger og -svar for offlineadgang og hurtigere indlæsningstider."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa Hoveddomænenavnet (f.eks. <b>google.com</b> i stedet for <b>account.google.com</b> eller <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa De nøjagtige underdomæner af de målrettede sider (f.eks. <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa Fjernelse af <b>http://</b> eller <b>https://</b> protokoller"
+  },
+  "ih_btnExport": {
+    "message": "Eksportere"
+  },
+  "ih_btnImport": {
+    "message": "Importere"
+  },
+  "ph_domExample": {
+    "message": "eksempel.dk"
+  },
+  "sz_promptConfirm": {
+    "message": "Er du sikker på at rengøre ikke hvidlistet <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "Ikke hvidlistet %TYPE% er blevet ryddet."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

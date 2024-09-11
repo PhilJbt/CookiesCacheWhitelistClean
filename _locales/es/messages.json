@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "mostrar mi lista"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>Galletas</i> requerir:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>Galletas</i> son pequeños archivos de datos almacenados por sitios web en su navegador para recordar sus preferencias, estado de inicio de sesión y realizar un seguimiento de la actividad de navegación."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Cache</i> requerir:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Cache</i> es el almacenamiento temporal de los recursos de la página web (como imágenes, scripts, etc.) para acelerar los tiempos de carga de la página durante futuras visitas."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>Almacenamiento local</i> requerir:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>Almacenamiento local</i> es un mecanismo de almacenamiento persistente para almacenar pequeñas cantidades de datos (pares clave-valor) localmente en el navegador, al que el sitio web puede acceder incluso después de cerrar el navegador."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>websql</i> requerir:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>websql</i> es un mecanismo de almacenamiento de bases de datos basado en navegador obsoleto, que permite almacenar datos estructurados en bases de datos basadas en SQL."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>Sistemas de archivos</i> requerir:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>Sistemas de archivos</i> permite que los sitios web almacenen archivos y datos en el sistema de archivos de su computadora, lo que permite un almacenamiento de datos más grande y complejo."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>DB indexado</i> requerir:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>DB indexado</i> API de bajo nivel para almacenar grandes cantidades de datos estructurados, incluidos archivos y blobs, lo que permite capacidades sin conexión."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>Trabajadores de servicio</i> requerir:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>Trabajadores de servicio</i> son scripts que se ejecutan en segundo plano de su navegador y permiten funciones como acceso sin conexión, sincronización en segundo plano y notificaciones automáticas."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>Almacenamiento en caché</i> requerir:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>Almacenamiento en caché</i> es un mecanismo de almacenamiento utilizado por ServiceWorkers para almacenar en caché las solicitudes y respuestas de la red para acceso sin conexión y tiempos de carga más rápidos."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa El nombre de dominio principal (p. ej. <b>google.com</b> en lugar de <b>account.google.com</b> o <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa Los subdominios exactos de las páginas de destino (p. ej. <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa La eliminación del <b>http://</b> o <b>https://</b> protocolos"
+  },
+  "ih_btnExport": {
+    "message": "Exportar"
+  },
+  "ih_btnImport": {
+    "message": "Importar"
+  },
+  "ph_domExample": {
+    "message": "ejemplo.es"
+  },
+  "sz_promptConfirm": {
+    "message": "¿Estás seguro de limpiar los que no están en la lista blanca? <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "%TYPE% no incluido en la lista blanca se ha eliminado correctamente."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

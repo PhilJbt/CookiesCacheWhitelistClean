@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "Mutasd a listámat"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>Cookie-k</i> igényel:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>Cookie-k</i> kis adatfájlok, amelyeket a webhelyek tárolnak a böngészőjében, hogy emlékezzenek beállításaira, bejelentkezési állapotára és nyomon kövessék a böngészési tevékenységet."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Gyorsítótár</i> igényel:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Gyorsítótár</i> a weboldal erőforrásainak (például képek, szkriptek stb.) ideiglenes tárolása az oldalak betöltési idejének felgyorsítása érdekében a jövőbeli látogatások során."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>LocalStorage</i> igényel:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>LocalStorage</i> egy állandó tárolási mechanizmus kis mennyiségű adat (kulcs-érték párok) lokális tárolására a böngészőben, amely a böngésző bezárása után is elérhető a webhely számára."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> igényel:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> egy elavult böngészőalapú adatbázis-tárolási mechanizmus, amely lehetővé teszi a strukturált adatok SQL-alapú adatbázisokban való tárolását."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>Fájlrendszerek</i> igényel:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>Fájlrendszerek</i> lehetővé teszi a webhelyek számára, hogy fájlokat és adatokat tároljanak a számítógép fájlrendszerében, ami nagyobb és összetettebb adattárolást tesz lehetővé."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>IndexedDB</i> igényel:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>indexedDB</i> alacsony szintű API nagy mennyiségű strukturált adat tárolására, beleértve a fájlokat és blobokat, lehetővé téve az offline lehetőségeket."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>Szervizmunkások</i> igényel:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>Szervizmunkások</i> olyan szkriptek, amelyek a böngésző hátterében futnak, és olyan funkciókat tesznek lehetővé, mint az offline hozzáférés, a háttérben történő szinkronizálás és a push értesítések."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>CacheStorage</i> igényel:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>CacheStorage</i> egy tárolási mechanizmus, amelyet a ServiceWorkers használ a hálózati kérések és válaszok gyorsítótárazására az offline hozzáférés és a gyorsabb betöltési idő érdekében."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa A fő domain név (pl. <b>google.com</b> helyett <b>account.google.com</b> vagy <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa A megcélzott oldalak pontos aldomainjei (pl. <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa Az eltávolítása a <b>http://</b> vagy <b>https://</b> protokollok"
+  },
+  "ih_btnExport": {
+    "message": "Export"
+  },
+  "ih_btnImport": {
+    "message": "Importálás"
+  },
+  "ph_domExample": {
+    "message": "példa.hu"
+  },
+  "sz_promptConfirm": {
+    "message": "Biztosan tisztítja, nem szerepel az engedélyezési listán <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "Nem szerepel az engedélyezőlistán: %TYPE% sikeresen törölve."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

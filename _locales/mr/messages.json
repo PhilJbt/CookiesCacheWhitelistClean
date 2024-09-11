@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "माझी यादी दाखवा"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>कुकीज</i> आवश्यक आहे:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>कुकीज</i> तुमची प्राधान्ये, लॉगिन स्थिती लक्षात ठेवण्यासाठी आणि ब्राउझिंग क्रियाकलाप ट्रॅक करण्यासाठी तुमच्या ब्राउझरवर वेबसाइट्सद्वारे संग्रहित केलेल्या छोट्या डेटा फाइल्स आहेत."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>कॅशे</i> आवश्यक आहे:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>कॅशे</i> भविष्यातील भेटी दरम्यान पृष्ठ लोड वेळा वेगवान करण्यासाठी वेब पृष्ठ संसाधनांचे तात्पुरते संचयन (जसे की प्रतिमा, स्क्रिप्ट इ.)."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>लोकल स्टोरेज</i> आवश्यक आहे:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>लोकल स्टोरेज</i> ब्राउझरमध्ये स्थानिक पातळीवर लहान प्रमाणात डेटा (की-व्हॅल्यू जोड्या) संचयित करण्यासाठी पर्सिस्टंट स्टोरेज यंत्रणा आहे, ब्राउझर बंद झाल्यानंतरही वेबसाइटद्वारे प्रवेश करता येतो."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> आवश्यक आहे:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> एक नापसंत ब्राउझर-आधारित डेटाबेस स्टोरेज यंत्रणा आहे, जी SQL-आधारित डेटाबेसमध्ये संरचित डेटा संग्रहित करण्यास अनुमती देते."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>फाइलसिस्टम्स</i> आवश्यक आहे:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>फाइलसिस्टम्स</i> वेबसाइटना तुमच्या संगणकाच्या फाइलसिस्टमवर फाइल्स आणि डेटा संचयित करण्याची परवानगी देते, मोठ्या आणि अधिक जटिल डेटा स्टोरेज सक्षम करते."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>IndexedDB</i> आवश्यक आहे:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>अनुक्रमित डीबी</i> ऑफलाइन क्षमतांना अनुमती देऊन फाइल्स आणि ब्लॉब्ससह मोठ्या प्रमाणात संरचित डेटा संचयित करण्यासाठी निम्न-स्तरीय API."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>सेवा कामगार</i> आवश्यक आहे:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>सेवा कामगार</i> ऑफलाइन प्रवेश, पार्श्वभूमी समक्रमण आणि पुश सूचना यासारख्या वैशिष्ट्यांना सक्षम करून, तुमच्या ब्राउझरच्या पार्श्वभूमीत चालणाऱ्या स्क्रिप्ट आहेत."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>कॅशे स्टोरेज</i> आवश्यक आहे:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>कॅशे स्टोरेज</i> ही एक स्टोरेज यंत्रणा आहे जी सर्व्हिसवर्कर्सद्वारे नेटवर्क विनंत्या आणि ऑफलाइन ऍक्सेस आणि जलद लोड वेळेसाठी प्रतिसाद कॅश करण्यासाठी वापरली जाते."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa मुख्य डोमेन नाव (उदा. <b>google.com</b> ऐवजी <b>account.google.com</b> किंवा <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa लक्ष्यित पृष्ठांचे अचूक उपडोमेन (उदा. <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa काढून टाकणे <b>http://</b> किंवा <b>https://</b> प्रोटोकॉल"
+  },
+  "ih_btnExport": {
+    "message": "निर्यात करा"
+  },
+  "ih_btnImport": {
+    "message": "आयात करा"
+  },
+  "ph_domExample": {
+    "message": "उदाहरण.भारत"
+  },
+  "sz_promptConfirm": {
+    "message": "तुमची खात्री आहे की श्वेतसूचीबद्ध नाही <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "श्वेतसूचीबद्ध नाही %TYPE% यशस्वीरित्या साफ केले गेले."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

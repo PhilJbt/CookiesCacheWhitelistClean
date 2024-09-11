@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "Покажи моя списък"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>Бисквитки</i> изисквам:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>Бисквитки</i> са малки файлове с данни, съхранявани от уебсайтове във вашия браузър, за да запомнят вашите предпочитания, статус на влизане и да проследяват активността при сърфиране."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Кеш памет</i> изисквам:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Кеш памет</i> е временно съхранение на ресурси на уеб страница (като изображения, скриптове и т.н.), за да се ускори времето за зареждане на страницата при бъдещи посещения."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>LocalStorage</i> изисквам:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>LocalStorage</i> е постоянен механизъм за съхранение за съхраняване на малки количества данни (двойки ключ-стойност) локално в браузъра, достъпни от уебсайта дори след като браузърът е затворен."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> изисквам:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> е остарял механизъм за съхранение на бази данни, базиран на браузър, позволяващ структурирани данни да се съхраняват в бази данни, базирани на SQL."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>Файлови системи</i> изисквам:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>Файлови системи</i> позволява на уебсайтовете да съхраняват файлове и данни във файловата система на вашия компютър, позволявайки по-голямо и по-сложно съхранение на данни."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>Индексирана база данни</i> изисквам:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>индексирана база данни</i> API на ниско ниво за съхраняване на големи количества структурирани данни, включително файлове и петна, позволяващи офлайн възможности."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>Работници в сферата на услугите</i> изисквам:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>Работници в сферата на услугите</i> са скриптове, работещи във фонов режим на вашия браузър, позволяващи функции като офлайн достъп, фоново синхронизиране и насочени известия."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>Съхранение на кеша</i> изисквам:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>Съхранение на кеша</i> е механизъм за съхранение, използван от ServiceWorkers за кеширане на мрежови заявки и отговори за офлайн достъп и по-бързо време за зареждане."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa Основното име на домейн (напр. <b>google.com</b> вместо <b>account.google.com</b> или <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa Точните поддомейни на целевите страници (напр. <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa Премахването на <b>http://</b> или <b>https://</b> протоколи"
+  },
+  "ih_btnExport": {
+    "message": "Експортиране"
+  },
+  "ih_btnImport": {
+    "message": "Импортиране"
+  },
+  "ph_domExample": {
+    "message": "пример.bg"
+  },
+  "sz_promptConfirm": {
+    "message": "Сигурни ли сте, че почиствате не в белия списък <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "Невключените в белия списък %TYPE% бяха успешно изчистени."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

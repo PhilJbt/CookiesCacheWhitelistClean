@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "Prikaži moj popis"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>Kolačići</i> zahtijevaju:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>Kolačići</i> su male podatkovne datoteke koje web stranice pohranjuju u vašem pregledniku kako bi zapamtile vaše postavke, status prijave i pratile aktivnosti pregledavanja."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Predmemorija</i> zahtijeva:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Predmemorija</i> je privremena pohrana resursa web-stranice (kao što su slike, skripte itd.) radi ubrzanja učitavanja stranice tijekom budućih posjeta."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>LocalStorage</i> zahtijeva:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>LocalStorage</i> je trajni mehanizam za pohranjivanje malih količina podataka (parova ključ-vrijednost) lokalno u pregledniku, kojem web-mjesto može pristupiti čak i nakon što je preglednik zatvoren."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> zahtijeva:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> je zastarjeli mehanizam za pohranu baze podataka temeljen na pregledniku, koji omogućuje pohranu strukturiranih podataka u baze podataka temeljene na SQL-u."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>Datotečni sustavi</i> zahtijevaju:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>FilesSystems</i> web stranicama omogućuje pohranu datoteka i podataka u datotečni sustav vašeg računala, omogućujući veću i složeniju pohranu podataka."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>IndexedDB</i> zahtijeva:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>indexedDB</i> API niske razine za pohranjivanje velikih količina strukturiranih podataka, uključujući datoteke i blobove, omogućujući izvanmrežne mogućnosti."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>ServiceWorkers</i> zahtijevaju:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>ServiceWorkers</i> su skripte koje se izvode u pozadini vašeg preglednika, omogućujući značajke poput izvanmrežnog pristupa, sinkronizacije u pozadini i push obavijesti."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>CacheStorage</i> zahtijeva:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>CacheStorage</i> je mehanizam za pohranu koji koristi ServiceWorkers za predmemoriju mrežnih zahtjeva i odgovora za izvanmrežni pristup i brže učitavanje."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa Glavni naziv domene (npr. <b>google.com</b> umjesto <b>account.google.com</b> ili <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa Točne poddomene ciljanih stranica (npr. <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa Uklanjanje protokola <b>http://</b> ili <b>https://</b>"
+  },
+  "ih_btnExport": {
+    "message": "Izvoz"
+  },
+  "ih_btnImport": {
+    "message": "Uvoz"
+  },
+  "ph_domExample": {
+    "message": "primjer.hr"
+  },
+  "sz_promptConfirm": {
+    "message": "Jeste li sigurni da želite očistiti <b>%TYPE%</b> koji nije na popisu dopuštenih?"
+  },
+  "sz_notifyCleared": {
+    "message": "%TYPE% koji nisu na bijelom popisu uspješno su izbrisani."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

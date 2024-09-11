@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "எனது பட்டியலைக் காட்டு"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>குக்கீகள்</i> தேவை:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>குக்கீகள்</i> உங்கள் விருப்பத்தேர்வுகள், உள்நுழைவு நிலை மற்றும் உலாவல் செயல்பாட்டைக் கண்காணிக்க உங்கள் உலாவியில் இணையதளங்களால் சேமிக்கப்படும் சிறிய தரவுக் கோப்புகள்."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>தற்காலிக சேமிப்பு</i> தேவை:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>தற்காலிக சேமிப்பு</i> எதிர்கால வருகைகளின் போது பக்க ஏற்ற நேரங்களை விரைவுபடுத்த, வலைப்பக்க ஆதாரங்களின் (படங்கள், ஸ்கிரிப்டுகள் போன்றவை) தற்காலிக சேமிப்பாகும்."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>உள்ளூர் சேமிப்பு</i> தேவை:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>உள்ளூர் சேமிப்பு</i> உலாவியில் சிறிய அளவிலான தரவுகளை (முக்கிய மதிப்பு ஜோடிகள்) சேமிப்பதற்கான நிலையான சேமிப்பக பொறிமுறையாகும், உலாவி மூடப்பட்ட பிறகும் இணையதளத்தால் அணுக முடியும்."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> தேவை:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> தடைசெய்யப்பட்ட உலாவி அடிப்படையிலான தரவுத்தள சேமிப்பு பொறிமுறையாகும், இது கட்டமைக்கப்பட்ட தரவை SQL அடிப்படையிலான தரவுத்தளங்களில் சேமிக்க அனுமதிக்கிறது."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>கோப்பு முறைமைகள்</i> தேவை:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>கோப்பு முறைமைகள்</i> உங்கள் கணினியின் கோப்பு முறைமையில் கோப்புகள் மற்றும் தரவைச் சேமிக்க வலைத்தளங்களை அனுமதிக்கிறது, இது பெரிய மற்றும் சிக்கலான தரவு சேமிப்பகத்தை செயல்படுத்துகிறது."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>IndexedDB</i> தேவை:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>indexedDB</i> ஆஃப்லைன் திறன்களை அனுமதிக்கும் கோப்புகள் மற்றும் குமிழ்கள் உட்பட பெரிய அளவிலான கட்டமைக்கப்பட்ட தரவை சேமிப்பதற்கான குறைந்த-நிலை API."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>சேவை பணியாளர்கள்</i> தேவை:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>சேவை பணியாளர்கள்</i> உங்கள் உலாவியின் பின்னணியில் இயங்கும் ஸ்கிரிப்ட்கள், ஆஃப்லைன் அணுகல், பின்னணி ஒத்திசைவு மற்றும் புஷ் அறிவிப்புகள் போன்ற அம்சங்களை இயக்கும்."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>CacheStorage</i> தேவை:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>CacheStorage</i> ஆஃப்லைன் அணுகல் மற்றும் வேகமான ஏற்ற நேரங்களுக்கான நெட்வொர்க் கோரிக்கைகள் மற்றும் பதில்களைத் தேக்ககப்படுத்த சர்வீஸ்வொர்க்கர்ஸ் பயன்படுத்தும் ஒரு சேமிப்பக பொறிமுறையாகும்."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa முக்கிய டொமைன் பெயர் (எ.கா. <b>google.com</b> பதிலாக <b>account.google.com</b> அல்லது <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa இலக்கிடப்பட்ட பக்கங்களின் சரியான துணை டொமைன்கள் (எ.கா. <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa அகற்றுதல் <b>http://</b> அல்லது <b>https://</b> நெறிமுறைகள்"
+  },
+  "ih_btnExport": {
+    "message": "ஏற்றுமதி"
+  },
+  "ih_btnImport": {
+    "message": "இறக்குமதி"
+  },
+  "ph_domExample": {
+    "message": "உதாரணம்.in"
+  },
+  "sz_promptConfirm": {
+    "message": "அனுமதிப்பட்டியலில் இல்லை என்பதை நீங்கள் உறுதியாகச் சுத்தம் செய்கிறீர்களா <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "ஏற்புப்பட்டியலில் சேர்க்கப்படவில்லை %TYPE% வெற்றிகரமாக அழிக்கப்பட்டது."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

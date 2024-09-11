@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "Εμφάνιση της λίστας μου"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>Μπισκότα</i> απαιτώ:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>Μπισκότα</i> είναι μικρά αρχεία δεδομένων που αποθηκεύονται από ιστότοπους στο πρόγραμμα περιήγησής σας για να θυμάστε τις προτιμήσεις σας, την κατάσταση σύνδεσης και την παρακολούθηση της δραστηριότητας περιήγησης."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Κρύπτη</i> απαιτώ:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Κρύπτη</i> είναι η προσωρινή αποθήκευση πόρων ιστοσελίδων (όπως εικόνες, σενάρια κ.λπ.) για την επιτάχυνση του χρόνου φόρτωσης της σελίδας κατά τις μελλοντικές επισκέψεις."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>LocalStorage</i> απαιτώ:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>LocalStorage</i> είναι ένας μόνιμος μηχανισμός αποθήκευσης για την αποθήκευση μικρών ποσοτήτων δεδομένων (ζευγών κλειδιών-τιμών) τοπικά στο πρόγραμμα περιήγησης, προσβάσιμο από τον ιστότοπο ακόμη και μετά το κλείσιμο του προγράμματος περιήγησης."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> απαιτώ:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> είναι ένας καταργημένος μηχανισμός αποθήκευσης βάσεων δεδομένων που βασίζεται σε πρόγραμμα περιήγησης, ο οποίος επιτρέπει την αποθήκευση δομημένων δεδομένων σε βάσεις δεδομένων που βασίζονται σε SQL."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>Συστήματα Αρχείων</i> απαιτώ:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>Συστήματα Αρχείων</i> επιτρέπει στους ιστότοπους να αποθηκεύουν αρχεία και δεδομένα στο σύστημα αρχείων του υπολογιστή σας, επιτρέποντας μεγαλύτερη και πιο περίπλοκη αποθήκευση δεδομένων."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>IndexedDB</i> απαιτώ:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>indexedDB</i> API χαμηλού επιπέδου για την αποθήκευση μεγάλων ποσοτήτων δομημένων δεδομένων, συμπεριλαμβανομένων αρχείων και blobs, επιτρέποντας δυνατότητες εκτός σύνδεσης."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>Service Workers</i> απαιτώ:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>Service Workers</i> είναι σενάρια που εκτελούνται στο παρασκήνιο του προγράμματος περιήγησής σας, επιτρέποντας λειτουργίες όπως πρόσβαση εκτός σύνδεσης, συγχρονισμός φόντου και ειδοποιήσεις push."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>CacheStorage</i> απαιτώ:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>CacheStorage</i> είναι ένας μηχανισμός αποθήκευσης που χρησιμοποιείται από το ServiceWorkers για την προσωρινή αποθήκευση αιτημάτων και απαντήσεων δικτύου για πρόσβαση εκτός σύνδεσης και ταχύτερους χρόνους φόρτωσης."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa Το κύριο όνομα τομέα (π.χ. <b>google.com</b> αντί για <b>account.google.com</b> ή <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa Οι ακριβείς υποτομείς των στοχευμένων σελίδων (π.χ. <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa Η αφαίρεση του <b>http://</b> ή <b>https://</b> πρωτόκολλα"
+  },
+  "ih_btnExport": {
+    "message": "Εξαγωγή"
+  },
+  "ih_btnImport": {
+    "message": "Εισαγωγή"
+  },
+  "ph_domExample": {
+    "message": "παράδειγμα"
+  },
+  "sz_promptConfirm": {
+    "message": "Είστε βέβαιοι ότι το καθαρισμό δεν είναι στη λίστα επιτρεπόμενων <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "Το %TYPE% που δεν περιλαμβάνεται στη λίστα επιτρεπόμενων έχει διαγραφεί με επιτυχία."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

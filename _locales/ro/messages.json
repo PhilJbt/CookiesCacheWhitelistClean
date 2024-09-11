@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "Arată-mi lista"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>Cookie-uri</i> necesită:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>Cookie-uri</i> sunt fișiere mici de date stocate de site-uri web în browserul dvs. pentru a vă aminti preferințele, starea de conectare și pentru a urmări activitatea de navigare."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Cache</i> necesită:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Cache</i> este stocarea temporară a resurselor paginii web (cum ar fi imagini, scripturi etc.) pentru a accelera timpul de încărcare a paginii în timpul vizitelor viitoare."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>Stocare locală</i> necesită:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>Stocare locală</i> este un mecanism de stocare persistent pentru stocarea unor cantități mici de date (perechi cheie-valoare) local în browser, accesibil de către site chiar și după ce browserul este închis."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> necesită:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> este un mecanism de stocare a bazei de date bazat pe browser, învechit, care permite stocarea datelor structurate în baze de date bazate pe SQL."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>FileSystems</i> necesită:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>FilesSystems</i> permite site-urilor web să stocheze fișiere și date în sistemul de fișiere al computerului dvs., permițând stocarea datelor mai mari și mai complexe."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>IndexedDB</i> necesită:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>indexedDB</i> API de nivel scăzut pentru stocarea unor cantități mari de date structurate, inclusiv fișiere și blob-uri, permițând capabilități offline."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>Lucrători în service</i> necesită:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>Lucrători în service</i> sunt scripturi care rulează în fundal al browserului dvs., care permit funcții precum accesul offline, sincronizarea în fundal și notificările push."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>CacheStorage</i> necesită:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>CacheStorage</i> este un mecanism de stocare utilizat de ServiceWorkers pentru a stoca în cache solicitările și răspunsurile de rețea pentru acces offline și timpi de încărcare mai rapid."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa Numele de domeniu principal (de ex. <b>google.com</b> în loc de <b>account.google.com</b> sau <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa Subdomeniile exacte ale paginilor vizate (de ex. <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa Îndepărtarea <b>http://</b> sau <b>https://</b> protocoale"
+  },
+  "ih_btnExport": {
+    "message": "Export"
+  },
+  "ih_btnImport": {
+    "message": "Import"
+  },
+  "ph_domExample": {
+    "message": "exemplu.ro"
+  },
+  "sz_promptConfirm": {
+    "message": "Sunteți sigur că curățați nu ați trecut pe lista albă <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "%TYPE% neînregistrați în lista albă au fost șters cu succes."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

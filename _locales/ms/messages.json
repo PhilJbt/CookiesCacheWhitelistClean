@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "Tunjukkan senarai saya"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>biskut</i> memerlukan:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>biskut</i> ialah fail data kecil yang disimpan oleh tapak web pada penyemak imbas anda untuk mengingati keutamaan anda, status log masuk dan menjejaki aktiviti penyemakan imbas."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Cache</i> memerlukan:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Cache</i> ialah storan sementara sumber halaman web (seperti imej, skrip, dll.) untuk mempercepatkan masa pemuatan halaman semasa lawatan akan datang."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>LocalStorage</i> memerlukan:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>LocalStorage</i> ialah mekanisme storan berterusan untuk menyimpan sejumlah kecil data (pasangan nilai kunci) secara setempat dalam penyemak imbas, boleh diakses oleh tapak web walaupun selepas penyemak imbas ditutup."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> memerlukan:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> ialah mekanisme storan pangkalan data berasaskan pelayar yang tidak digunakan lagi, membenarkan data berstruktur disimpan dalam pangkalan data berasaskan SQL."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>Sistem Fail</i> memerlukan:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>FilesSystems</i> membolehkan tapak web menyimpan fail dan data pada sistem fail komputer anda, membolehkan storan data yang lebih besar dan lebih kompleks."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>IndexedDB</i> memerlukan:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>indexedDB</i> API peringkat rendah untuk menyimpan sejumlah besar data berstruktur, termasuk fail dan gumpalan, membolehkan keupayaan luar talian."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>ServiceWorkers</i> memerlukan:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>ServiceWorkers</i> ialah skrip berjalan di latar belakang penyemak imbas anda, mendayakan ciri seperti akses luar talian, penyegerakan latar belakang dan pemberitahuan tolak."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>CacheStorage</i> memerlukan:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>CacheStorage</i> ialah mekanisme storan yang digunakan oleh ServiceWorkers untuk cache permintaan rangkaian dan respons untuk akses luar talian dan masa muat yang lebih cepat."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa Nama domain utama (cth. <b>google.com</b> bukannya <b>account.google.com</b> atau <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa Subdomain yang tepat bagi halaman yang disasarkan (cth. <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa Penyingkiran <b>http://</b> atau <b>https://</b> protokol"
+  },
+  "ih_btnExport": {
+    "message": "Eksport"
+  },
+  "ih_btnImport": {
+    "message": "Import"
+  },
+  "ph_domExample": {
+    "message": "contoh.my"
+  },
+  "sz_promptConfirm": {
+    "message": "Adakah anda pasti membersihkan bukan disenarai putih <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "Tidak disenarai putih %TYPE% telah berjaya dibersihkan."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

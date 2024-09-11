@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "Näytä listani"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>Evästeet</i> vaatia:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>Evästeet</i> ovat pieniä tietotiedostoja, jotka verkkosivustot ovat tallentaneet selaimellesi, jotta ne muistavat mieltymyksesi, kirjautumistilan ja seurataan selaustoimintaa."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Välimuisti</i> vaatia:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Välimuisti</i> on web-sivuresurssien (kuten kuvien, komentosarjojen jne.) väliaikainen tallennus, joka nopeuttaa sivujen latausaikoja tulevien vierailujen aikana."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>LocalStorage</i> vaatia:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>LocalStorage</i> on pysyvä tallennusmekanismi pienten tietomäärien (avainarvoparien) tallentamiseen paikallisesti selaimeen, johon verkkosivusto pääsee käsiksi myös selaimen sulkemisen jälkeen."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> vaatia:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> on vanhentunut selainpohjainen tietokantojen tallennusmekanismi, joka mahdollistaa strukturoidun tiedon tallentamisen SQL-pohjaisiin tietokantoihin."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>Tiedostojärjestelmät</i> vaatia:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>Tiedostojärjestelmät</i> sallii verkkosivustojen tallentaa tiedostoja ja tietoja tietokoneesi tiedostojärjestelmään, mikä mahdollistaa suuremman ja monimutkaisemman tiedon tallennuksen."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>Indeksoitu DB</i> vaatia:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>indeksoitu DB</i> matalan tason sovellusliittymä suurten strukturoitujen tietojen tallentamiseen, mukaan lukien tiedostot ja blobit, mahdollistaen offline-ominaisuudet."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>Palvelutyöntekijät</i> vaatia:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>Palvelutyöntekijät</i> ovat selaimesi taustalla käynnissä olevia komentosarjoja, jotka mahdollistavat ominaisuudet, kuten offline-käytön, taustasynkronoinnin ja push-ilmoitukset."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>CacheStorage</i> vaatia:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>CacheStorage</i> on ServiceWorkersin käyttämä tallennusmekanismi verkkopyyntöjen ja vastausten välimuistiin offline-käyttöä ja nopeampia latausaikoja varten."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa Pääverkkotunnuksen nimi (esim. <b>google.com</b> sijasta <b>account.google.com</b> tai <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa Kohdesivujen tarkat aliverkkotunnukset (esim. <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa Poistaminen <b>http://</b> tai <b>https://</b> protokollat"
+  },
+  "ih_btnExport": {
+    "message": "Viedä"
+  },
+  "ih_btnImport": {
+    "message": "Tuoda"
+  },
+  "ph_domExample": {
+    "message": "esimerkki.fi"
+  },
+  "sz_promptConfirm": {
+    "message": "Oletko varma, että puhdistat ei sallittujen luettelossa <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "Ei sallittujen luetteloon %TYPE% on poistettu onnistuneesti."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

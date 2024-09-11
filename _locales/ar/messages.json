@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "عرض قائمتي"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>ملفات تعريف الارتباط</i> يتطلب:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>ملفات تعريف الارتباط</i> هي ملفات بيانات صغيرة تخزنها مواقع الويب على متصفحك لتذكر تفضيلاتك وحالة تسجيل الدخول وتتبع نشاط التصفح."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>مخبأ</i> يتطلب:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>مخبأ</i> هو تخزين مؤقت لموارد صفحة الويب (مثل الصور والنصوص البرمجية وما إلى ذلك) لتسريع أوقات تحميل الصفحة أثناء الزيارات المستقبلية."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>التخزين المحلي</i> يتطلب:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>التخزين المحلي</i> هي آلية تخزين مستمرة لتخزين كميات صغيرة من البيانات (أزواج القيمة الرئيسية) محليًا في المتصفح، ويمكن الوصول إليها عن طريق موقع الويب حتى بعد إغلاق المتصفح."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>ويب إس كيو إل</i> يتطلب:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>ويب إس كيو إل</i> هي آلية مهملة لتخزين قاعدة البيانات تعتمد على المتصفح، مما يسمح بتخزين البيانات المنظمة في قواعد البيانات المستندة إلى SQL."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>أنظمة الملفات</i> يتطلب:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>أنظمة الملفات</i> يسمح لمواقع الويب بتخزين الملفات والبيانات على نظام الملفات بجهاز الكمبيوتر الخاص بك، مما يتيح تخزين بيانات أكبر وأكثر تعقيدًا."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>قاعدة بيانات مفهرسة</i> يتطلب:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>قاعدة بيانات مفهرسة</i> واجهة برمجة تطبيقات منخفضة المستوى لتخزين كميات كبيرة من البيانات المنظمة، بما في ذلك الملفات والنقاط الكبيرة، مما يسمح بإمكانيات عدم الاتصال بالإنترنت."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>عمال الخدمة</i> يتطلب:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>عمال الخدمة</i> هي نصوص برمجية تعمل في خلفية متصفحك، مما يتيح ميزات مثل الوصول دون اتصال بالإنترنت ومزامنة الخلفية ودفع الإشعارات."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>تخزين التخزين المؤقت</i> يتطلب:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>تخزين التخزين المؤقت</i> هي آلية تخزين يستخدمها عمال الخدمة لتخزين طلبات الشبكة واستجاباتها مؤقتًا للوصول دون اتصال بالإنترنت وأوقات تحميل أسرع."
+  },
+  "ih_noteDomainMain": {
+    "message": "اسم النطاق الرئيسي (على سبيل المثال. <b>google.com</b> بدلاً من <b>account.google.com</b> أو <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "النطاقات الفرعية الدقيقة للصفحات المستهدفة (على سبيل المثال. <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "إزالة <b>http://</b> أو <b>https://</b> البروتوكولات"
+  },
+  "ih_btnExport": {
+    "message": "يصدّر"
+  },
+  "ih_btnImport": {
+    "message": "يستورد"
+  },
+  "ph_domExample": {
+    "message": "مثال.عرب"
+  },
+  "sz_promptConfirm": {
+    "message": "هل أنت متأكد من مسح <b>%TYPE%</b> غير المدرجة في القائمة البيضاء؟"
+  },
+  "sz_notifyCleared": {
+    "message": "تمت إزالة %TYPE% بنجاح."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

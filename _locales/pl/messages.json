@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "Pokaż moją listę"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>Ciastka</i> wymagać:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>Ciastka</i> to małe pliki danych przechowywane przez strony internetowe w Twojej przeglądarce w celu zapamiętywania Twoich preferencji, statusu logowania i śledzenia aktywności przeglądania."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Kryjówka</i> wymagać:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Kryjówka</i> to tymczasowe przechowywanie zasobów strony internetowej (takich jak obrazy, skrypty itp.) w celu przyspieszenia czasu ładowania strony podczas przyszłych wizyt."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>Magazyn lokalny</i> wymagać:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>Magazyn lokalny</i> to mechanizm trwałego przechowywania, służący do przechowywania niewielkich ilości danych (par klucz-wartość) lokalnie w przeglądarce, dostępnych przez witrynę nawet po zamknięciu przeglądarki."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> wymagać:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> to przestarzały mechanizm przechowywania baz danych oparty na przeglądarce, umożliwiający przechowywanie danych strukturalnych w bazach danych opartych na języku SQL."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>Systemy plików</i> wymagać:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>Systemy plików</i> umożliwia stronom internetowym przechowywanie plików i danych w systemie plików Twojego komputera, umożliwiając przechowywanie większych i bardziej złożonych danych."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>Indeksowana baza danych</i> wymagać:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>indeksowana baza danych</i> niskopoziomowe API do przechowywania dużych ilości ustrukturyzowanych danych, w tym plików i obiektów BLOB, umożliwiające pracę w trybie offline."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>Pracownicy serwisu</i> wymagać:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>Pracownicy serwisu</i> to skrypty działające w tle przeglądarki, umożliwiające takie funkcje, jak dostęp offline, synchronizacja w tle i powiadomienia push."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>Pamięć podręczna</i> wymagać:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>Pamięć podręczna</i> to mechanizm przechowywania używany przez ServiceWorkers do buforowania żądań sieciowych i odpowiedzi w celu uzyskania dostępu w trybie offline i szybszego ładowania."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa Główna nazwa domeny (np. <b>google.com</b> zamiast <b>konto.google.com</b> Lub <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa Dokładne subdomeny docelowych stron (np. <b>konto.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa Usunięcie <b>http://</b> Lub <b>https://</b> protokoły"
+  },
+  "ih_btnExport": {
+    "message": "Eksport"
+  },
+  "ih_btnImport": {
+    "message": "Import"
+  },
+  "ph_domExample": {
+    "message": "przykład.pl"
+  },
+  "sz_promptConfirm": {
+    "message": "Czy na pewno chcesz wyczyścić, a nie na białej liście <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "Nieumieszczone na białej liście %TYPE% zostało pomyślnie usunięte."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

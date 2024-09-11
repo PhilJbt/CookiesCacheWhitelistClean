@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "Tunjukkan daftar saya"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>kue</i> memerlukan:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>kue</i> adalah file data kecil yang disimpan oleh situs web di browser Anda untuk mengingat preferensi Anda, status login, dan melacak aktivitas penelusuran."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Cache</i> memerlukan:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Cache</i> adalah penyimpanan sementara sumber daya halaman web (seperti gambar, skrip, dll.) untuk mempercepat waktu muat halaman selama kunjungan berikutnya."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>Penyimpanan Lokal</i> memerlukan:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>Penyimpanan Lokal</i> adalah mekanisme penyimpanan persisten untuk menyimpan sejumlah kecil data (pasangan nilai kunci) secara lokal di browser, dapat diakses oleh situs web bahkan setelah browser ditutup."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> memerlukan:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> adalah mekanisme penyimpanan basis data berbasis browser yang tidak digunakan lagi, memungkinkan data terstruktur disimpan dalam basis data berbasis SQL."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>Sistem File</i> memerlukan:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>FileSistem</i> memungkinkan situs web menyimpan file dan data di sistem file komputer Anda, memungkinkan penyimpanan data yang lebih besar dan kompleks."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>DB yang diindeks</i> memerlukan:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>diindeksDB</i> API tingkat rendah untuk menyimpan data terstruktur dalam jumlah besar, termasuk file dan blob, memungkinkan kemampuan offline."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>Pekerja Layanan</i> memerlukan:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>Pekerja Layanan</i> adalah skrip yang berjalan di latar belakang browser Anda, mengaktifkan fitur seperti akses offline, sinkronisasi latar belakang, dan pemberitahuan push."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>Penyimpanan Cache</i> memerlukan:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>Penyimpanan Cache</i> adalah mekanisme penyimpanan yang digunakan oleh ServiceWorkers untuk menyimpan permintaan dan respons jaringan dalam cache untuk akses offline dan waktu muat yang lebih cepat."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa Nama domain utama (mis. <b>google.com</b> alih-alih <b>akun.google.com</b> atau <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa Subdomain yang tepat dari halaman yang ditargetkan (mis. <b>akun.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa Penghapusan <b>http://</b> atau <b>https://</b> protokol"
+  },
+  "ih_btnExport": {
+    "message": "Ekspor"
+  },
+  "ih_btnImport": {
+    "message": "Impor"
+  },
+  "ph_domExample": {
+    "message": "contoh.id"
+  },
+  "sz_promptConfirm": {
+    "message": "Apakah Anda yakin untuk membersihkan tidak masuk daftar putih <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "Tidak masuk daftar putih %TYPE% telah berhasil dibersihkan."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

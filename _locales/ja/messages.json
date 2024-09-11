@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "私のリストを表示"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>クッキー</i> 必要とする："
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>クッキー</i> は、ユーザーの設定、ログインステータスを記憶し、閲覧アクティビティを追跡するために、Web サイトによってブラウザーに保存される小さなデータ ファイルです。"
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>キャッシュ</i> 必要とする："
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>キャッシュ</i> 将来の訪問時のページの読み込み時間を短縮するための、Web ページ リソース (画像、スクリプトなど) の一時的なストレージです。"
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>ローカルストレージ</i> 必要とする："
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>ローカルストレージ</i> 少量のデータ (キーと値のペア) をブラウザーにローカルに保存するための永続ストレージ メカニズムであり、ブラウザーを閉じた後でも Web サイトからアクセスできます。"
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> 必要とする："
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> は、非推奨のブラウザベースのデータベース ストレージ メカニズムであり、構造化データを SQL ベースのデータベースに保存できるようにします。"
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>ファイルシステム</i> 必要とする："
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>ファイルシステム</i> Web サイトがファイルやデータをコンピュータのファイル システムに保存できるようになり、より大規模で複雑なデータ ストレージが可能になります。"
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>インデックス付きDB</i> 必要とする："
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>インデックス付きDB</i> ファイルや BLOB などの大量の構造化データを保存するための低レベル API で、オフライン機能が可能です。"
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>サービスワーカー</i> 必要とする："
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>サービスワーカー</i> ブラウザのバックグラウンドで実行されるスクリプトで、オフライン アクセス、バックグラウンド同期、プッシュ通知などの機能を有効にします。"
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>キャッシュストレージ</i> 必要とする："
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>キャッシュストレージ</i> オフライン アクセスと読み込み時間の短縮のために、ServiceWorker がネットワーク リクエストとレスポンスをキャッシュするために使用するストレージ メカニズムです。"
+  },
+  "ih_noteDomainMain": {
+    "message": "メインのドメイン名 (例: <b>google.com</b> の代わりに <b>account.google.com</b> または <b>www.google.com</b>) \u25aa"
+  },
+  "ih_noteDomainSub": {
+    "message": "対象となるページの正確なサブドメイン (例: <b>account.google.com</b>) \u25aa"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "の削除 <b>http://</b> または <b>https://</b> プロトコル \u25aa"
+  },
+  "ih_btnExport": {
+    "message": "輸出"
+  },
+  "ih_btnImport": {
+    "message": "輸入"
+  },
+  "ph_domExample": {
+    "message": "例.jp"
+  },
+  "sz_promptConfirm": {
+    "message": "ホワイトリストに登録されていないものをクリーンアップしますか? <b>％TYPE％</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "ホワイトリストに登録されていない %TYPE% は正常にクリアされました。"
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

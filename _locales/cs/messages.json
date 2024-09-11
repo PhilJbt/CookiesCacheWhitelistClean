@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "Ukaž můj seznam"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>Soubory cookie</i> vyžadovat:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>Soubory cookie</i> jsou malé datové soubory uložené weby ve vašem prohlížeči, aby si zapamatovaly vaše preference, stav přihlášení a sledovaly aktivitu při prohlížení."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Cache</i> vyžadovat:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Cache</i> je dočasné úložiště zdrojů webových stránek (jako jsou obrázky, skripty atd.) pro urychlení načítání stránky během budoucích návštěv."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>LocalStorage</i> vyžadovat:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>LocalStorage</i> je mechanismus trvalého úložiště pro ukládání malého množství dat (párů klíč-hodnota) lokálně v prohlížeči, přístupný webem i po zavření prohlížeče."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> vyžadovat:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> je zastaralý mechanismus ukládání databází založený na prohlížeči, který umožňuje ukládání strukturovaných dat do databází založených na SQL."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>Souborové systémy</i> vyžadovat:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>FilesSystems</i> umožňuje webovým stránkám ukládat soubory a data do souborového systému vašeho počítače, což umožňuje větší a složitější ukládání dat."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>IndexovanáDB</i> vyžadovat:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>indexovanáDB</i> nízkoúrovňové rozhraní API pro ukládání velkého množství strukturovaných dat, včetně souborů a objektů BLOB, umožňující offline funkce."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>ServiceWorkers</i> vyžadovat:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>ServiceWorkers</i> jsou skripty běžící na pozadí vašeho prohlížeče, které umožňují funkce, jako je offline přístup, synchronizace na pozadí a oznámení push."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>CacheStorage</i> vyžadovat:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>CacheStorage</i> je úložný mechanismus používaný ServiceWorkers k ukládání síťových požadavků a odpovědí pro offline přístup a rychlejší načítání."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa Hlavní název domény (např. <b>google.com</b> místo <b>account.google.com</b> nebo <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa Přesné subdomény cílových stránek (např. <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa Odstranění <b>http://</b> nebo <b>https://</b> protokoly"
+  },
+  "ih_btnExport": {
+    "message": "Vývozní"
+  },
+  "ih_btnImport": {
+    "message": "Importovat"
+  },
+  "ph_domExample": {
+    "message": "příklad.cz"
+  },
+  "sz_promptConfirm": {
+    "message": "Jste si jisti, že čištění není na seznamu povolených <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "Nepřidané %TYPE% byly úspěšně vymazány."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

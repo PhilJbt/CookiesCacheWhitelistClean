@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "Hiển thị danh sách của tôi"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>Cookie</i> yêu cầu:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>Cookie</i> là các tệp dữ liệu nhỏ được các trang web lưu trữ trên trình duyệt của bạn để ghi nhớ các tùy chọn, trạng thái đăng nhập và theo dõi hoạt động duyệt web của bạn."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Bộ nhớ đệm</i> yêu cầu:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Bộ nhớ đệm</i> là nơi lưu trữ tạm thời các tài nguyên trang web (như hình ảnh, tập lệnh, v.v.) để tăng tốc thời gian tải trang trong những lần truy cập sau này."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>Bộ nhớ cục bộ</i> yêu cầu:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>Bộ nhớ cục bộ</i> là cơ chế lưu trữ liên tục để lưu trữ cục bộ một lượng nhỏ dữ liệu (cặp khóa-giá trị) trong trình duyệt, trang web có thể truy cập ngay cả sau khi đóng trình duyệt."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> yêu cầu:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> là một cơ chế lưu trữ cơ sở dữ liệu dựa trên trình duyệt không được dùng nữa, cho phép lưu trữ dữ liệu có cấu trúc trong cơ sở dữ liệu dựa trên SQL."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>Hệ thống tập tin</i> yêu cầu:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>Hệ thống tập tin</i> cho phép các trang web lưu trữ tệp và dữ liệu trên hệ thống tệp của máy tính của bạn, cho phép lưu trữ dữ liệu lớn hơn và phức tạp hơn."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>IndexedDB</i> yêu cầu:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>được lập chỉ mụcDB</i> API cấp thấp để lưu trữ lượng lớn dữ liệu có cấu trúc, bao gồm các tệp và các đốm màu, cho phép khả năng ngoại tuyến."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>Công Nhân Dịch Vụ</i> yêu cầu:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>Công Nhân Dịch Vụ</i> là các tập lệnh chạy trong nền trình duyệt của bạn, cho phép các tính năng như truy cập ngoại tuyến, đồng bộ hóa trong nền và thông báo đẩy."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>Bộ nhớ đệm</i> yêu cầu:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>Bộ nhớ đệm</i> là một cơ chế lưu trữ được ServiceWorkers sử dụng để lưu vào bộ đệm các yêu cầu và phản hồi của mạng để truy cập ngoại tuyến và thời gian tải nhanh hơn."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa Tên miền chính (ví dụ: <b>google.com</b> thay vì <b>tài khoản.google.com</b> hoặc <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa Tên miền phụ chính xác của các trang được nhắm mục tiêu (ví dụ: <b>tài khoản.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa Việc loại bỏ <b>http://</b> hoặc <b>https://</b> giao thức"
+  },
+  "ih_btnExport": {
+    "message": "Xuất khẩu"
+  },
+  "ih_btnImport": {
+    "message": "Nhập khẩu"
+  },
+  "ph_domExample": {
+    "message": "ví dụ.vn"
+  },
+  "sz_promptConfirm": {
+    "message": "Bạn có chắc chắn dọn dẹp không nằm trong danh sách trắng <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "%TYPE% không nằm trong danh sách trắng đã được xóa thành công."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

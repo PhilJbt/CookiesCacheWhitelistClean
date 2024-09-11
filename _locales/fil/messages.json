@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "Ipakita ang aking listahan"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>Mga cookies</i> nangangailangan ng:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>Mga cookies</i> ay maliit na mga file ng data na iniimbak ng mga website sa iyong browser upang matandaan ang iyong mga kagustuhan, katayuan sa pag-log in, at subaybayan ang aktibidad sa pagba-browse."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Cache</i> nangangailangan ng:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Cache</i> ay pansamantalang pag-iimbak ng mga mapagkukunan ng web page (tulad ng mga larawan, script, atbp.) upang mapabilis ang mga oras ng pag-load ng pahina sa mga pagbisita sa hinaharap."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>LocalStorage</i> nangangailangan ng:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>LocalStorage</i> ay patuloy na mekanismo ng imbakan para sa pag-iimbak ng maliliit na halaga ng data (mga pares ng key-value) nang lokal sa browser, na maa-access ng website kahit na sarado na ang browser."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> nangangailangan ng:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> ay isang hindi na ginagamit na mekanismo ng pag-iimbak ng database na nakabatay sa browser, na nagpapahintulot sa nakabalangkas na data na maimbak sa mga database na batay sa SQL."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>FileSystems</i> nangangailangan ng:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>FilesSystems</i> nagbibigay-daan sa mga website na mag-imbak ng mga file at data sa filesystem ng iyong computer, na nagpapagana ng mas malaki at mas kumplikadong pag-iimbak ng data."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>IndexedDB</i> nangangailangan ng:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>indexedDB</i> mababang antas ng API para sa pag-iimbak ng malalaking halaga ng structured data, kabilang ang mga file at blobs, na nagbibigay-daan para sa mga offline na kakayahan."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>Mga ServiceWorker</i> nangangailangan ng:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>Mga ServiceWorker</i> ay mga script na tumatakbo sa background ng iyong browser, na nagpapagana ng mga feature tulad ng offline na pag-access, pag-sync sa background, at mga push notification."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>CacheStorage</i> nangangailangan ng:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>CacheStorage</i> ay isang mekanismo ng storage na ginagamit ng mga ServiceWorkers upang i-cache ang mga kahilingan at tugon sa network para sa offline na pag-access at mas mabilis na oras ng pag-load."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa Ang pangunahing domain name (hal. <b>google.com</b> sa halip na <b>account.google.com</b> o <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa Ang eksaktong mga subdomain ng mga naka-target na pahina (hal. <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa Ang pagtanggal ng <b>http://</b> o <b>https://</b> mga protocol"
+  },
+  "ih_btnExport": {
+    "message": "I-export"
+  },
+  "ih_btnImport": {
+    "message": "Mag-import"
+  },
+  "ph_domExample": {
+    "message": "halimbawa.ph"
+  },
+  "sz_promptConfirm": {
+    "message": "Sigurado ka bang maglilinis ng hindi naka-whitelist <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "Hindi naka-whitelist %TYPE% ay matagumpay na na-clear."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

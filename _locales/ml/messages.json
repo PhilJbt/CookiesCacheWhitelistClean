@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "എൻ്റെ ലിസ്റ്റ് കാണിക്കൂ"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>കുക്കികൾ</i> ആവശ്യമാണ്:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>കുക്കികൾ</i> നിങ്ങളുടെ മുൻഗണനകൾ, ലോഗിൻ സ്റ്റാറ്റസ്, ബ്രൗസിംഗ് ആക്റ്റിവിറ്റി ട്രാക്ക് ചെയ്യൽ എന്നിവയ്ക്കായി നിങ്ങളുടെ ബ്രൗസറിൽ വെബ്സൈറ്റുകൾ സംഭരിച്ചിരിക്കുന്ന ചെറിയ ഡാറ്റ ഫയലുകളാണ്."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>കാഷെ</i> ആവശ്യമാണ്:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>കാഷെ</i> ഭാവി സന്ദർശനങ്ങളിൽ പേജ് ലോഡ് സമയം വേഗത്തിലാക്കാൻ വെബ് പേജ് ഉറവിടങ്ങളുടെ (ചിത്രങ്ങൾ, സ്ക്രിപ്റ്റുകൾ മുതലായവ) താൽക്കാലിക സംഭരണമാണ്."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>ലോക്കൽ സ്റ്റോറേജ്</i> ആവശ്യമാണ്:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>ലോക്കൽ സ്റ്റോറേജ്</i> ബ്രൗസറിൽ പ്രാദേശികമായി ചെറിയ അളവിലുള്ള ഡാറ്റ (കീ-മൂല്യം ജോഡികൾ) സംഭരിക്കുന്നതിനുള്ള സ്ഥിരമായ സംഭരണ ​​സംവിധാനമാണ്, ബ്രൗസർ അടച്ചതിന് ശേഷവും വെബ്സൈറ്റിന് ആക്സസ് ചെയ്യാൻ കഴിയും."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> ആവശ്യമാണ്:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> ഒരു ബ്രൗസർ അടിസ്ഥാനമാക്കിയുള്ള ഡാറ്റാബേസ് സ്റ്റോറേജ് മെക്കാനിസമാണ്, ഇത് ഘടനാപരമായ ഡാറ്റ SQL അടിസ്ഥാനമാക്കിയുള്ള ഡാറ്റാബേസുകളിൽ സംഭരിക്കാൻ അനുവദിക്കുന്നു."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>ഫയൽസിസ്റ്റംസ്</i> ആവശ്യമാണ്:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>ഫയൽസിസ്റ്റംസ്</i> നിങ്ങളുടെ കമ്പ്യൂട്ടറിൻ്റെ ഫയൽ സിസ്റ്റത്തിൽ ഫയലുകളും ഡാറ്റയും സംഭരിക്കാൻ വെബ്സൈറ്റുകളെ അനുവദിക്കുന്നു, ഇത് വലുതും കൂടുതൽ സങ്കീർണ്ണവുമായ ഡാറ്റ സംഭരണം പ്രവർത്തനക്ഷമമാക്കുന്നു."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>IndexedDB</i> ആവശ്യമാണ്:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>ഇൻഡക്സ്ഡ്ഡിബി</i> ഓഫ്ലൈൻ കഴിവുകൾ അനുവദിക്കുന്ന ഫയലുകളും ബ്ലോബുകളും ഉൾപ്പെടെ വലിയ അളവിലുള്ള ഘടനാപരമായ ഡാറ്റ സംഭരിക്കുന്നതിനുള്ള ലോ-ലെവൽ API."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>സർവീസ് വർക്കർമാർ</i> ആവശ്യമാണ്:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>സർവീസ് വർക്കർമാർ</i> ഓഫ്ലൈൻ ആക്സസ്, പശ്ചാത്തല സമന്വയം, പുഷ് അറിയിപ്പുകൾ എന്നിവ പോലുള്ള സവിശേഷതകൾ പ്രവർത്തനക്ഷമമാക്കുന്ന, നിങ്ങളുടെ ബ്രൗസറിൻ്റെ പശ്ചാത്തലത്തിൽ പ്രവർത്തിക്കുന്ന സ്ക്രിപ്റ്റുകളാണ്."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>കാഷെസ്റ്റോറേജ്</i> ആവശ്യമാണ്:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>കാഷെസ്റ്റോറേജ്</i> നെറ്റ്വർക്ക് അഭ്യർത്ഥനകളും പ്രതികരണങ്ങളും ഓഫ്ലൈൻ ആക്സസിനും വേഗതയേറിയ ലോഡ് സമയത്തിനുമായി കാഷെ ചെയ്യാൻ ServiceWorkers ഉപയോഗിക്കുന്ന ഒരു സംഭരണ ​​സംവിധാനമാണ്."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa പ്രധാന ഡൊമെയ്ൻ നാമം (ഉദാ. <b>google.com</b> ഇതിനുപകരമായി <b>account.google.com</b> അല്ലെങ്കിൽ <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa ടാർഗെറ്റുചെയ്ത പേജുകളുടെ കൃത്യമായ ഉപഡൊമെയ്നുകൾ (ഉദാ. <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa നീക്കം ചെയ്യൽ <b>http://</b> അല്ലെങ്കിൽ <b>https://</b> പ്രോട്ടോക്കോളുകൾ"
+  },
+  "ih_btnExport": {
+    "message": "കയറ്റുമതി"
+  },
+  "ih_btnImport": {
+    "message": "ഇറക്കുമതി ചെയ്യുക"
+  },
+  "ph_domExample": {
+    "message": "ഉദാഹരണം.ഭാരതം"
+  },
+  "sz_promptConfirm": {
+    "message": "വൈറ്റ്ലിസ്റ്റ് ചെയ്തിട്ടില്ലെന്ന് നിങ്ങൾക്ക് ഉറപ്പാണോ? <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "വൈറ്റ്ലിസ്റ്റ് ചെയ്തിട്ടില്ലാത്ത %TYPE% വിജയകരമായി മായ്ച്ചു."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

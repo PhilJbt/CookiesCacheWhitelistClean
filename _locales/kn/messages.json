@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "ನನ್ನ ಪಟ್ಟಿಯನ್ನು ತೋರಿಸು"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>ಕುಕೀಸ್</i> ಅಗತ್ಯವಿದೆ:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>ಕುಕೀಸ್</i> ನಿಮ್ಮ ಆದ್ಯತೆಗಳು, ಲಾಗಿನ್ ಸ್ಥಿತಿ ಮತ್ತು ಬ್ರೌಸಿಂಗ್ ಚಟುವಟಿಕೆಯನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಲು ನಿಮ್ಮ ಬ್ರೌಸರ್ನಲ್ಲಿ ವೆಬ್ಸೈಟ್ಗಳಿಂದ ಸಂಗ್ರಹಿಸಲಾದ ಸಣ್ಣ ಡೇಟಾ ಫೈಲ್ಗಳಾಗಿವೆ."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>ಸಂಗ್ರಹ</i> ಅಗತ್ಯವಿದೆ:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>ಸಂಗ್ರಹ</i> ಭವಿಷ್ಯದ ಭೇಟಿಗಳ ಸಮಯದಲ್ಲಿ ಪುಟ ಲೋಡ್ ಸಮಯವನ್ನು ವೇಗಗೊಳಿಸಲು ವೆಬ್ ಪುಟ ಸಂಪನ್ಮೂಲಗಳ (ಚಿತ್ರಗಳು, ಸ್ಕ್ರಿಪ್ಟ್ಗಳು, ಇತ್ಯಾದಿ) ತಾತ್ಕಾಲಿಕ ಸಂಗ್ರಹಣೆಯಾಗಿದೆ."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>ಸ್ಥಳೀಯ ಸಂಗ್ರಹಣೆ</i> ಅಗತ್ಯವಿದೆ:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>ಸ್ಥಳೀಯ ಸಂಗ್ರಹಣೆ</i> ಬ್ರೌಸರ್ನಲ್ಲಿ ಸ್ಥಳೀಯವಾಗಿ ಸಣ್ಣ ಪ್ರಮಾಣದ ಡೇಟಾವನ್ನು (ಕೀ-ಮೌಲ್ಯ ಜೋಡಿಗಳು) ಸಂಗ್ರಹಿಸಲು ನಿರಂತರ ಶೇಖರಣಾ ಕಾರ್ಯವಿಧಾನವಾಗಿದೆ, ಬ್ರೌಸರ್ ಮುಚ್ಚಿದ ನಂತರವೂ ವೆಬ್ಸೈಟ್ನಿಂದ ಪ್ರವೇಶಿಸಬಹುದು."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> ಅಗತ್ಯವಿದೆ:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> ಅಸಮ್ಮತಿಸಿದ ಬ್ರೌಸರ್-ಆಧಾರಿತ ಡೇಟಾಬೇಸ್ ಶೇಖರಣಾ ಕಾರ್ಯವಿಧಾನವಾಗಿದ್ದು, ರಚನಾತ್ಮಕ ಡೇಟಾವನ್ನು SQL-ಆಧಾರಿತ ಡೇಟಾಬೇಸ್ಗಳಲ್ಲಿ ಸಂಗ್ರಹಿಸಲು ಅನುವು ಮಾಡಿಕೊಡುತ್ತದೆ."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>ಫೈಲ್ ಸಿಸ್ಟಂಗಳು</i> ಅಗತ್ಯವಿದೆ:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>ಫೈಲ್ ಸಿಸ್ಟಮ್ಸ್</i> ನಿಮ್ಮ ಕಂಪ್ಯೂಟರ್ನ ಫೈಲ್ಸಿಸ್ಟಮ್ನಲ್ಲಿ ಫೈಲ್ಗಳು ಮತ್ತು ಡೇಟಾವನ್ನು ಸಂಗ್ರಹಿಸಲು ವೆಬ್ಸೈಟ್ಗಳಿಗೆ ಅನುಮತಿಸುತ್ತದೆ, ದೊಡ್ಡ ಮತ್ತು ಹೆಚ್ಚು ಸಂಕೀರ್ಣವಾದ ಡೇಟಾ ಸಂಗ್ರಹಣೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುತ್ತದೆ."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>IndexedDB</i> ಅಗತ್ಯವಿದೆ:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>ಇಂಡೆಕ್ಸ್ಡ್ಡಿಬಿ</i> ಆಫ್ಲೈನ್ ಸಾಮರ್ಥ್ಯಗಳನ್ನು ಅನುಮತಿಸುವ ಫೈಲ್ಗಳು ಮತ್ತು ಬ್ಲಾಬ್ಗಳನ್ನು ಒಳಗೊಂಡಂತೆ ಹೆಚ್ಚಿನ ಪ್ರಮಾಣದ ರಚನಾತ್ಮಕ ಡೇಟಾವನ್ನು ಸಂಗ್ರಹಿಸಲು ಕಡಿಮೆ-ಮಟ್ಟದ API."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>ಸೇವಾಕರ್ತರು</i> ಅಗತ್ಯವಿದೆ:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>ಸೇವಾಕರ್ತರು</i> ನಿಮ್ಮ ಬ್ರೌಸರ್ನ ಹಿನ್ನೆಲೆಯಲ್ಲಿ ಚಾಲನೆಯಲ್ಲಿರುವ ಸ್ಕ್ರಿಪ್ಟ್ಗಳು, ಆಫ್ಲೈನ್ ಪ್ರವೇಶ, ಹಿನ್ನೆಲೆ ಸಿಂಕ್ ಮತ್ತು ಪುಶ್ ಅಧಿಸೂಚನೆಗಳಂತಹ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುತ್ತದೆ."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>ಸಂಗ್ರಹ ಸಂಗ್ರಹ</i> ಅಗತ್ಯವಿದೆ:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>ಸಂಗ್ರಹ ಸಂಗ್ರಹ</i> ಆಫ್ಲೈನ್ ಪ್ರವೇಶ ಮತ್ತು ವೇಗವಾದ ಲೋಡ್ ಸಮಯಗಳಿಗಾಗಿ ನೆಟ್ವರ್ಕ್ ವಿನಂತಿಗಳು ಮತ್ತು ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ಸಂಗ್ರಹಿಸಲು ServiceWorkers ಬಳಸುವ ಶೇಖರಣಾ ಕಾರ್ಯವಿಧಾನವಾಗಿದೆ."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa ಮುಖ್ಯ ಡೊಮೇನ್ ಹೆಸರು (ಉದಾ. <b>google.com</b> ಬದಲಿಗೆ <b>account.google.com</b> ಅಥವಾ <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa ಉದ್ದೇಶಿತ ಪುಟಗಳ ನಿಖರವಾದ ಉಪಡೊಮೇನ್ಗಳು (ಉದಾ. <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa ತೆಗೆಯುವಿಕೆ <b>http://</b> ಅಥವಾ <b>https://</b> ಪ್ರೋಟೋಕಾಲ್ಗಳು"
+  },
+  "ih_btnExport": {
+    "message": "ರಫ್ತು ಮಾಡಿ"
+  },
+  "ih_btnImport": {
+    "message": "ಆಮದು ಮಾಡಿಕೊಳ್ಳಿ"
+  },
+  "ph_domExample": {
+    "message": "ಉದಾಹರಣೆ.ಭಾರತ"
+  },
+  "sz_promptConfirm": {
+    "message": "ಶ್ವೇತಪಟ್ಟಿಯಲ್ಲಿಲ್ಲದ ಸ್ವಚ್ಛಗೊಳಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "ಶ್ವೇತಪಟ್ಟಿಗೆ ಸೇರಿಸಲಾಗಿಲ್ಲ %TYPE% ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ ತೆರವುಗೊಳಿಸಲಾಗಿದೆ."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

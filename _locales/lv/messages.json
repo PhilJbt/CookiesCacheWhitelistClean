@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "Parādiet manu sarakstu"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>Sīkdatnes</i> pieprasīt:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>Sīkdatnes</i> ir mazi datu faili, ko vietnes saglabā jūsu pārlūkprogrammā, lai atcerētos jūsu preferences, pieteikšanās statusu un izsekotu pārlūkošanas darbībām."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Kešatmiņa</i> pieprasīt:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Kešatmiņa</i> ir tīmekļa lapu resursu (piemēram, attēlu, skriptu utt.) pagaidu glabāšana, lai paātrinātu lapas ielādes laiku turpmāko apmeklējumu laikā."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>Vietējā krātuve</i> pieprasīt:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>Vietējā krātuve</i> ir pastāvīgs uzglabāšanas mehānisms nelielu datu apjomu (atslēgas vērtību pāru) lokālai glabāšanai pārlūkprogrammā, kas ir pieejams vietnē pat pēc pārlūkprogrammas aizvēršanas."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> pieprasīt:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> ir novecojis pārlūkprogrammas datu bāzes glabāšanas mehānisms, kas ļauj strukturētus datus glabāt SQL datubāzēs."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>Failu sistēmas</i> pieprasīt:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>Failu sistēmas</i> ļauj vietnēm saglabāt failus un datus jūsu datora failu sistēmā, nodrošinot lielāku un sarežģītāku datu glabāšanu."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>IndexedDB</i> pieprasīt:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>indeksētsDB</i> zema līmeņa API liela apjoma strukturētu datu, tostarp failu un blobu, glabāšanai, nodrošinot bezsaistes iespējas."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>Servisa darbinieki</i> pieprasīt:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>Servisa darbinieki</i> ir skripti, kas darbojas jūsu pārlūkprogrammas fonā un nodrošina tādas funkcijas kā bezsaistes piekļuve, fona sinhronizācija un informatīvie paziņojumi."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>CacheStorage</i> pieprasīt:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>CacheStorage</i> ir krātuves mehānisms, ko ServiceWorkers izmanto, lai kešatmiņā saglabātu tīkla pieprasījumus un atbildes, lai nodrošinātu piekļuvi bezsaistē un ātrāku ielādes laiku."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa Galvenais domēna nosaukums (piem. <b>google.com</b> vietā <b>account.google.com</b> vai <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa Precīzi atlasīto lapu apakšdomēni (piem., <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa Noņemšana <b>http://</b> vai <b>https://</b> protokoli"
+  },
+  "ih_btnExport": {
+    "message": "Eksportēt"
+  },
+  "ih_btnImport": {
+    "message": "Importēt"
+  },
+  "ph_domExample": {
+    "message": "pavyzdys.lv"
+  },
+  "sz_promptConfirm": {
+    "message": "Vai esat pārliecināts, ka tīrīšana nav iekļauta baltajā sarakstā <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "Nav baltajā sarakstā %TYPE% ir veiksmīgi notīrīti."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "ih_summaryExpand": {
+    "message": "הצג את הרשימה שלי"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>עוגיות</i> דורשות:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>קובצי Cookie</i> הם קובצי נתונים קטנים המאוחסנים על ידי אתרי אינטרנט בדפדפן שלך כדי לזכור את ההעדפות שלך, סטטוס ההתחברות ומעקב אחר פעילות הגלישה."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>מטמון</i> דורש:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>מטמון</i> הוא אחסון זמני של משאבי דפי אינטרנט (כגון תמונות, סקריפטים וכו') כדי להאיץ את זמני טעינת הדפים במהלך ביקורים עתידיים."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>LocalStorage</i> דורש:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>LocalStorage</i> הוא מנגנון אחסון מתמשך לאחסון כמויות קטנות של נתונים (צמדי מפתח-ערך) באופן מקומי בדפדפן, הנגיש על ידי האתר גם לאחר סגירת הדפדפן."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> דורש:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> הוא מנגנון אחסון מסדי נתונים מבוסס דפדפן שהוצא משימוש, המאפשר לאחסן נתונים מובנים במסדי נתונים מבוססי SQL."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>מערכות קבצים</i> דורשות:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>FilesSystems</i> מאפשרת לאתרי אינטרנט לאחסן קבצים ונתונים במערכת הקבצים של המחשב שלך, מה שמאפשר אחסון נתונים גדול ומורכב יותר."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>IndexedDB</i> דורשים:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>indexedDB</i> ממשק API ברמה נמוכה לאחסון כמויות גדולות של נתונים מובנים, כולל קבצים ובלובים, המאפשרים יכולות לא מקוונות."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>ServiceWorkers</i> דורשים:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>ServiceWorkers</i> הם סקריפטים הפועלים ברקע של הדפדפן שלך, ומאפשרים תכונות כמו גישה לא מקוונת, סנכרון ברקע והודעות דחיפה."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>CacheStorage</i> דורשים:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>CacheStorage</i> הוא מנגנון אחסון המשמש את ServiceWorkers לשמירה במטמון של בקשות ותגובות ברשת לגישה לא מקוונת וזמני טעינה מהירים יותר."
+  },
+  "ih_noteDomainMain": {
+    "message": "שם הדומיין הראשי (למשל <b>google.com</b> במקום <b>account.google.com</b> או <b>www.google.com</b>) \u25aa"
+  },
+  "ih_noteDomainSub": {
+    "message": "תת-הדומיינים המדויקים של הדפים הממוקדים (לדוגמה, <b>account.google.com</b>) \u25aa"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "הסרת הפרוטוקולים <b>http://</b> או <b>https://</b> \u25aa"
+  },
+  "ih_btnExport": {
+    "message": "יְצוּא"
+  },
+  "ih_btnImport": {
+    "message": "יְבוּא"
+  },
+  "ph_domExample": {
+    "message": "דוּגמָה.co.il"
+  },
+  "sz_promptConfirm": {
+    "message": "האם אתה בטוח שאתה מנקה את <b>%TYPE%</b> שאינו ברשימת ההיתרים?"
+  },
+  "sz_notifyCleared": {
+    "message": "לא ברשימת ההיתרים %TYPE% נוקו בהצלחה."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean",
+    "description": "Extension name [manifest.json]"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up.",
+    "description": "Extension description [manifest.json]"
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache",
+    "description": "First line of the text logo [options.html]"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean",
+    "description": "First line of the text logo [options.html]"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean",
+    "description": "Title of the page [options.html]"
+  },
+  "extTitleExport": {
+    "message": "CCWC",
+    "description": "Exported filename [options.js]"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC",
+    "description": "Extension name for browser notification [popup.html]"
+  }
+}

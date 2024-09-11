@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "నా జాబితాను చూపించు"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>కుక్కీలు</i> అవసరం:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>కుక్కీలు</i> మీ ప్రాధాన్యతలను గుర్తుంచుకోవడానికి, లాగిన్ స్థితి మరియు బ్రౌజింగ్ కార్యాచరణను ట్రాక్ చేయడానికి మీ బ్రౌజర్లో వెబ్సైట్ల ద్వారా నిల్వ చేయబడిన చిన్న డేటా ఫైల్లు."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>కాష్</i> అవసరం:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>కాష్</i> భవిష్యత్ సందర్శనల సమయంలో పేజీ లోడ్ సమయాన్ని వేగవంతం చేయడానికి వెబ్ పేజీ వనరులను (చిత్రాలు, స్క్రిప్ట్లు మొదలైనవి) తాత్కాలికంగా నిల్వ చేస్తుంది."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>స్థానిక నిల్వ</i> అవసరం:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>స్థానిక నిల్వ</i> బ్రౌజర్లో స్థానికంగా చిన్న మొత్తంలో డేటా (కీ-విలువ జతలు) నిల్వ చేయడానికి నిరంతర నిల్వ విధానం, బ్రౌజర్ మూసివేయబడిన తర్వాత కూడా వెబ్సైట్ ద్వారా యాక్సెస్ చేయవచ్చు."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> అవసరం:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> విస్మరించబడిన బ్రౌజర్-ఆధారిత డేటాబేస్ స్టోరేజ్ మెకానిజం, నిర్మాణాత్మక డేటాను SQL-ఆధారిత డేటాబేస్లలో నిల్వ చేయడానికి అనుమతిస్తుంది."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>ఫైల్ సిస్టమ్స్</i> అవసరం:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>ఫైల్స్ సిస్టమ్స్</i> మీ కంప్యూటర్ ఫైల్సిస్టమ్లో ఫైల్లు మరియు డేటాను నిల్వ చేయడానికి వెబ్సైట్లను అనుమతిస్తుంది, పెద్ద మరియు మరింత సంక్లిష్టమైన డేటా నిల్వను అనుమతిస్తుంది."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>IndexedDB</i> అవసరం:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>ఇండెక్స్డ్DB</i> ఆఫ్లైన్ సామర్థ్యాలను అనుమతించే ఫైల్లు మరియు బ్లాబ్లతో సహా పెద్ద మొత్తంలో నిర్మాణాత్మక డేటాను నిల్వ చేయడానికి తక్కువ-స్థాయి API."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>సేవాకార్మికులు</i> అవసరం:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>సేవాకార్మికులు</i> ఆఫ్లైన్ యాక్సెస్, బ్యాక్గ్రౌండ్ సింక్ మరియు పుష్ నోటిఫికేషన్ల వంటి ఫీచర్లను ఎనేబుల్ చేస్తూ, మీ బ్రౌజర్ నేపథ్యంలో నడుస్తున్న స్క్రిప్ట్లు."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>CacheStorage</i> అవసరం:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>CacheStorage</i> ఆఫ్లైన్ యాక్సెస్ మరియు వేగవంతమైన లోడ్ సమయాల కోసం నెట్వర్క్ అభ్యర్థనలు మరియు ప్రతిస్పందనలను కాష్ చేయడానికి ServiceWorkers ఉపయోగించే నిల్వ విధానం."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa ప్రధాన డొమైన్ పేరు (ఉదా. <b>google.com</b> బదులుగా <b>account.google.com</b> లేదా <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa లక్షిత పేజీల యొక్క ఖచ్చితమైన ఉపడొమైన్లు (ఉదా. <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa యొక్క తొలగింపు <b>http://</b> లేదా <b>https://</b> ప్రోటోకాల్లు"
+  },
+  "ih_btnExport": {
+    "message": "ఎగుమతి చేయండి"
+  },
+  "ih_btnImport": {
+    "message": "దిగుమతి"
+  },
+  "ph_domExample": {
+    "message": "ఉదాహరణ.భారత్"
+  },
+  "sz_promptConfirm": {
+    "message": "మీరు ఖచ్చితంగా వైట్లిస్ట్ చేయని క్లీన్ చేస్తారా <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "వైట్లిస్ట్ చేయబడలేదు %TYPE% విజయవంతంగా క్లియర్ చేయబడింది."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

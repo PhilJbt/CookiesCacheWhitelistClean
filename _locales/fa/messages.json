@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "لیست من را نشان دهید"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>کوکی ها</i> نیاز دارند:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>کوکی ها</i> فایلهای داده کوچکی هستند که توسط وبسایتها در مرورگر شما ذخیره میشوند تا تنظیمات برگزیده، وضعیت ورود به سیستم و پیگیری فعالیت مرور شما را به خاطر بسپارند."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>حافظه پنهان</i> نیاز دارند:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>حافظه پنهان</i> ذخیره سازی موقت منابع صفحه وب (مانند تصاویر، اسکریپت ها و غیره) برای سرعت بخشیدن به زمان بارگذاری صفحه در بازدیدهای بعدی است."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>LocalStorage</i> نیاز دارند:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>LocalStorage</i> مکانیزم ذخیره سازی دائمی برای ذخیره مقادیر کمی داده (جفت کلید-مقدار) به صورت محلی در مرورگر است که توسط وب سایت حتی پس از بسته شدن مرورگر قابل دسترسی است."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> نیاز دارند:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> یک مکانیسم ذخیره سازی پایگاه داده مبتنی بر مرورگر منسوخ است که به داده های ساختاریافته اجازه می دهد در پایگاه های داده مبتنی بر SQL ذخیره شوند."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>فایل سیستم ها</i> نیاز دارند:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>فایل سیستم ها</i> به وبسایتها اجازه میدهد تا فایلها و دادهها را در سیستم فایل رایانهتان ذخیره کنند و ذخیرهسازی دادههای بزرگتر و پیچیدهتر را ممکن میسازد."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>IndexedDB</i> نیاز دارند:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>indexedDB</i> API سطح پایین برای ذخیره مقادیر زیادی از داده های ساختاریافته، از جمله فایل ها و حباب ها، که امکان قابلیت های آفلاین را فراهم می کند."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>ServiceWorkers</i> نیاز دارند:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>ServiceWorkers</i> اسکریپتهایی هستند که در پسزمینه مرورگر شما اجرا میشوند و ویژگیهایی مانند دسترسی آفلاین، همگامسازی پسزمینه و اعلانهای فشاری را فعال میکنند."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>حافظه پنهان</i> نیاز دارند:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>حافظه پنهان</i> مکانیزم ذخیرهسازی است که توسط ServiceWorkers برای ذخیرهسازی درخواستها و پاسخهای شبکه برای دسترسی آفلاین و زمانهای بارگذاری سریعتر استفاده میشود."
+  },
+  "ih_noteDomainMain": {
+    "message": "نام دامنه اصلی (به عنوان مثال <b>google.com</b> به جای <b>account.google.com</b> یا <b>www.google.com</b>) \u25aa"
+  },
+  "ih_noteDomainSub": {
+    "message": "زیر دامنه های دقیق صفحات مورد نظر (به عنوان مثال <b>account.google.com</b>) \u25aa"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "حذف <b>http://</b> یا <b>https://</b> پروتکل ها \u25aa"
+  },
+  "ih_btnExport": {
+    "message": "صادرات"
+  },
+  "ih_btnImport": {
+    "message": "واردات"
+  },
+  "ph_domExample": {
+    "message": "مثال.ir"
+  },
+  "sz_promptConfirm": {
+    "message": "آیا مطمئن هستید که در لیست سفید قرار نگرفته اید <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "در لیست سفید %TYPE% با موفقیت پاک شد."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

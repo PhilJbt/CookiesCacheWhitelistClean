@@ -1,0 +1,130 @@
+{
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean",
+    "description": "Extension name [manifest.json]"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up.",
+    "description": "Extension description [manifest.json]"
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache",
+    "description": "First line of the text logo [options.html]"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean",
+    "description": "First line of the text logo [options.html]"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean",
+    "description": "Title of the page [options.html]"
+  },
+  "extTitleExport": {
+    "message": "CCWC",
+    "description": "Exported filename [options.js]"
+  },
+  "ih_summaryExpand": {
+    "message": "Show my list",
+    "description": "Drop-down menu showing whitelisted domains [options.html]"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>Cookies</i> require:",
+    "description": "Header of the Cookie tip box in tab mode (hidden in popup mode) [options.html]"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>Cookies</i> are small data files stored by websites on your browser to remember your preferences, login status, and track browsing activity.",
+    "description": "Description of the Cookie tip box in tab mode (hidden in popup mode) [options.html]"
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Cache</i> require:",
+    "description": "Header of the Cache tip box in tab mode (hidden in popup mode) [options.html]"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Cache</i> is temporary storage of web page resources (like images, scripts, etc.) to speed up page load times during future visits.",
+    "description": "Description of the Cache tip box in tab mode (hidden in popup mode) [options.html]"
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>LocalStorage</i> require:",
+    "description": "Header of the LocalStorage tip box in tab mode (hidden in popup mode) [options.html]"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>LocalStorage</i> is persistent storage mechanism for storing small amounts of data (key-value pairs) locally in the browser, accessible by the website even after the browser is closed.",
+    "description": "Description of the LocalStorage tip box in tab mode (hidden in popup mode) [options.html]"
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> require:",
+    "description": "Header of the WebSQL tip box in tab mode (hidden in popup mode) [options.html]"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> is a deprecated browser-based database storage mechanism, allowing structured data to be stored in SQL-based databases.",
+    "description": "Description of the WebSQL tip box in tab mode (hidden in popup mode) [options.html]"
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>FileSystems</i> require:",
+    "description": "Header of the FileSystems tip box in tab mode (hidden in popup mode) [options.html]"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>FilesSystems</i> allows websites to store files and data on your computer's filesystem, enabling larger and more complex data storage.",
+    "description": "Description of the FileSystems tip box in tab mode (hidden in popup mode) [options.html]"
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>IndexedDB</i> require:",
+    "description": "Header of the IndexedDB tip box in tab mode (hidden in popup mode) [options.html]"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>indexedDB</i> low-level API for storing large amounts of structured data, including files and blobs, allowing for offline capabilities.",
+    "description": "Description of the IndexedDB tip box in tab mode (hidden in popup mode) [options.html]"
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>ServiceWorkers</i> require:",
+    "description": "Header of the ServiceWorkers tip box in tab mode (hidden in popup mode) [options.html]"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>ServiceWorkers</i> are scripts running in the background of your browser, enabling features like offline access, background sync, and push notifications.",
+    "description": "Description of the ServiceWorkers tip box in tab mode (hidden in popup mode) [options.html]"
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>CacheStorage</i> require:",
+    "description": "Header of the CacheStorage tip box in tab mode (hidden in popup mode) [options.html]"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>CacheStorage</i> is a storage mechanism used by ServiceWorkers to cache network requests and responses for offline access and faster load times.",
+    "description": "Description of the CacheStorage tip box in tab mode (hidden in popup mode) [options.html]"
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa The main domain name (e.g. <b>google.com</b> instead of <b>account.google.com</b> or <b>www.google.com</b>)",
+    "description": "Tip box line for browsing data requiring main domains only [options.html]"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa The exact subdomains of the targeted pages (e.g. <b>account.google.com</b>)",
+    "description": "Tip box line for browsing data requiring also sub domains [options.html]"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa The removal of the <b>http://</b> or <b>https://</b> protocols",
+    "description": "Tip box line  [options.html]"
+  },
+  "ih_btnExport": {
+    "message": "Export",
+    "description": "Value of the button's label to export the extension configuration [options.html]"
+  },
+  "ih_btnImport": {
+    "message": "Import",
+    "description": "Value of the button's label to import the extension configuration [options.html]"
+  },
+  "ph_domExample": {
+    "message": "example.com",
+    "description": "Domain input text placeholder [options.html]"
+  },
+  "sz_promptConfirm": {
+    "message": "Are you sure to clean not whitelisted <b>%TYPE%</b>?",
+    "description": "Confirmation request text in the modal window (e.g. Are you sure to clean not whitelisted <b>Cookies</b>?) [options.html]"
+  },
+  "sz_notifyCleared": {
+    "message": "Not whitelisted %TYPE% have been successfuly cleared.",
+    "description": "Browser notification when a browsing data type has been cleared [options.html]"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC",
+    "description": "Extension name for browser notification [popup.html]"
+  }
+}

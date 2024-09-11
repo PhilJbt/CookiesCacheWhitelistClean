@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "Afficher ma liste"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>Cookies</i> requièrent:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>Cookies</i> sont de petits fichiers de données stockés par des sites Web sur votre navigateur pour mémoriser vos préférences, votre statut de connexion et suivre votre activité de navigation."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Cache</i> requièrent:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Cache</i> est un stockage temporaire des ressources d'une page Web (comme des images, des scripts, etc.) pour accélérer les temps de chargement des pages lors de visites futures."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>Stockage local</i> requièrent:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>Stockage local</i> est un mécanisme de stockage persistant permettant de stocker de petites quantités de données (paires clé-valeur) localement dans le navigateur, accessibles par le site Web même après la fermeture du navigateur."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> requièrent:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> est un mécanisme de stockage de base de données obsolète basé sur un navigateur, permettant de stocker des données structurées dans des bases de données SQL."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>Systèmes de fichiers</i> requièrent:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>FichiersSystèmes</i> permet aux sites Web de stocker des fichiers et des données sur le système de fichiers de votre ordinateur, permettant un stockage de données plus volumineux et plus complexe."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>Base de données indexée</i> requièrent:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>base de données indexée</i> API de bas niveau pour stocker de grandes quantités de données structurées, y compris des fichiers et des blobs, permettant des fonctionnalités hors ligne."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>Travailleurs des services</i> requièrent:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>Travailleurs des services</i> sont des scripts exécutés en arrière-plan de votre navigateur, permettant des fonctionnalités telles que l'accès hors ligne, la synchronisation en arrière-plan et les notifications push."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>CacheStockage</i> requièrent:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>CacheStockage</i> est un mécanisme de stockage utilisé par ServiceWorkers pour mettre en cache les requêtes et les réponses réseau pour un accès hors ligne et des temps de chargement plus rapides."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa Le nom de domaine principal (par ex. <b>google.com</b> au lieu de <b>compte.google.com</b> ou <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa Les sous-domaines exacts des pages ciblées (par ex. <b>compte.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa La suppression du <b>http://</b> ou <b>https://</b> protocoles"
+  },
+  "ih_btnExport": {
+    "message": "Exporter"
+  },
+  "ih_btnImport": {
+    "message": "Importer"
+  },
+  "ph_domExample": {
+    "message": "exemple.fr"
+  },
+  "sz_promptConfirm": {
+    "message": "Êtes-vous sûr de nettoyer et ne figure pas sur la liste blanche <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "Les %TYPE% non inscrits sur la liste blanche ont été effacés avec succès."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

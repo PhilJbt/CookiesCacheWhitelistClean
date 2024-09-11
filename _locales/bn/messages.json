@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "আমার তালিকা দেখান"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>কুকিজ</i> প্রয়োজন:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>কুকিজ</i> আপনার পছন্দ, লগইন স্থিতি এবং ব্রাউজিং কার্যকলাপ ট্র্যাক করার জন্য আপনার ব্রাউজারে ওয়েবসাইটগুলি দ্বারা সংরক্ষিত ছোট ডেটা ফাইলগুলি।"
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>ক্যাশে</i> প্রয়োজন:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>ক্যাশে</i> ভবিষ্যতে ভিজিট করার সময় পৃষ্ঠা লোডের সময়কে গতি বাড়ানোর জন্য ওয়েব পৃষ্ঠার সংস্থানগুলির (যেমন ছবি, স্ক্রিপ্ট, ইত্যাদি) অস্থায়ী স্টোরেজ।"
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>লোকাল স্টোরেজ</i> প্রয়োজন:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>লোকাল স্টোরেজ</i> ব্রাউজারে স্থানীয়ভাবে অল্প পরিমাণে ডেটা (কী-মান জোড়া) সংরক্ষণ করার জন্য স্থায়ী স্টোরেজ ব্যবস্থা, ব্রাউজার বন্ধ হওয়ার পরেও ওয়েবসাইট দ্বারা অ্যাক্সেসযোগ্য।"
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>ওয়েবএসকিউএল</i> প্রয়োজন:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>ওয়েবএসকিউএল</i> একটি অবহেলিত ব্রাউজার-ভিত্তিক ডাটাবেস স্টোরেজ মেকানিজম, যা এসকিউএল-ভিত্তিক ডাটাবেসে স্ট্রাকচার্ড ডেটা সংরক্ষণ করার অনুমতি দেয়।"
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>ফাইলসিস্টেম</i> প্রয়োজন:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>ফাইল সিস্টেম</i> ওয়েবসাইটগুলিকে আপনার কম্পিউটারের ফাইল সিস্টেমে ফাইল এবং ডেটা সঞ্চয় করার অনুমতি দেয়, বৃহত্তর এবং আরও জটিল ডেটা সঞ্চয়স্থান সক্ষম করে৷"
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>ইনডেক্সডডিবি</i> প্রয়োজন:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>indexedDB</i> ফাইল এবং ব্লব সহ প্রচুর পরিমাণে স্ট্রাকচার্ড ডেটা সংরক্ষণের জন্য নিম্ন-স্তরের API, অফলাইন ক্ষমতার জন্য অনুমতি দেয়।"
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>সেবাকর্মী</i> প্রয়োজন:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>সেবাকর্মী</i> আপনার ব্রাউজারের পটভূমিতে চলমান স্ক্রিপ্টগুলি, অফলাইন অ্যাক্সেস, ব্যাকগ্রাউন্ড সিঙ্ক এবং পুশ বিজ্ঞপ্তিগুলির মতো বৈশিষ্ট্যগুলি সক্ষম করে৷"
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>ক্যাশে স্টোরেজ</i> প্রয়োজন:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>ক্যাশে স্টোরেজ</i> অফলাইন অ্যাক্সেস এবং দ্রুত লোড সময়ের জন্য নেটওয়ার্ক অনুরোধ এবং প্রতিক্রিয়া ক্যাশ করতে ServiceWorkers দ্বারা ব্যবহৃত একটি স্টোরেজ পদ্ধতি।"
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa প্রধান ডোমেইন নাম (যেমন <b>google.com</b> পরিবর্তে <b>account.google.com</b> বা <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa টার্গেট করা পৃষ্ঠাগুলির সঠিক সাবডোমেনগুলি (যেমন <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa অপসারণ <b>http://</b> বা <b>https://</b> প্রোটোকল"
+  },
+  "ih_btnExport": {
+    "message": "রপ্তানি"
+  },
+  "ih_btnImport": {
+    "message": "আমদানি"
+  },
+  "ph_domExample": {
+    "message": "উদাহরণ.বাংলা"
+  },
+  "sz_promptConfirm": {
+    "message": "আপনি সাদা তালিকাভুক্ত না পরিষ্কার নিশ্চিত <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "সাদা তালিকাভুক্ত নয় %TYPE% সফলভাবে সাফ করা হয়েছে৷"
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

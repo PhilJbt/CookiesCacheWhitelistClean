@@ -1,0 +1,105 @@
+{
+  "ih_summaryExpand": {
+    "message": "Vis listen min"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>Informasjonskapsler</i> krever:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>Informasjonskapsler</i> er små datafiler som lagres av nettsteder i nettleseren din for å huske innstillingene dine, påloggingsstatus og spore nettleseraktivitet."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Cache</i> krever:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Cache</i> er midlertidig lagring av nettsideressurser (som bilder, skript osv.) for å øke hastigheten på sidens lastetid ved fremtidige besøk."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>LocalStorage</i> krever:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>LocalStorage</i> er en vedvarende lagringsmekanisme for lagring av små mengder data (nøkkelverdi-par) lokalt i nettleseren, tilgjengelig for nettstedet selv etter at nettleseren er lukket."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> krever:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> er en utdatert nettleserbasert databaselagringsmekanisme, som gjør at strukturerte data kan lagres i SQL-baserte databaser."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>Filsystemer</i> krever:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>FilesSystems</i> lar nettsteder lagre filer og data på datamaskinens filsystem, noe som muliggjør større og mer kompleks datalagring."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>IndexedDB</i> krever:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>indexedDB</i> lavnivå-API for lagring av store mengder strukturerte data, inkludert filer og blobs, som muliggjør offline-funksjoner."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>ServiceWorkers</i> krever:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>ServiceWorkers</i> er skript som kjører i bakgrunnen av nettleseren din, og aktiverer funksjoner som frakoblet tilgang, bakgrunnssynkronisering og push-varsler."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>CacheStorage</i> krever:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>CacheStorage</i> er en lagringsmekanisme som brukes av ServiceWorkers for å bufre nettverksforespørsler og svar for frakoblet tilgang og raskere lastetider."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa Hoveddomenenavnet (f.eks. <b>google.com</b> i stedet for <b>account.google.com</b> eller <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa De nøyaktige underdomenene til de målrettede sidene (f.eks. <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa Fjerning av protokollene <b>http://</b> eller <b>https://</b>"
+  },
+  "ih_btnExport": {
+    "message": "Eksport"
+  },
+  "ih_btnImport": {
+    "message": "Import"
+  },
+  "ph_domExample": {
+    "message": "eksempel.no"
+  },
+  "sz_promptConfirm": {
+    "message": "Er du sikker på at du renser ikke godkjente <b>%TYPE%</b>?"
+  },
+  "sz_notifyCleared": {
+    "message": "Ikke godkjent %TYPE% har blitt slettet."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean",
+    "description": "Extension name [manifest.json]"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up.",
+    "description": "Extension description [manifest.json]"
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache",
+    "description": "First line of the text logo [options.html]"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean",
+    "description": "First line of the text logo [options.html]"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean",
+    "description": "Title of the page [options.html]"
+  },
+  "extTitleExport": {
+    "message": "CCWC",
+    "description": "Exported filename [options.js]"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC",
+    "description": "Extension name for browser notification [popup.html]"
+  }
+}

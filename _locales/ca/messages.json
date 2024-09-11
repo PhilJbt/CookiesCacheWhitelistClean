@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "Mostra la meva llista"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>Galetes</i> requereixen:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>Galetes</i> són petits fitxers de dades emmagatzemats pels llocs web al vostre navegador per recordar les vostres preferències, l'estat d'inici de sessió i fer un seguiment de l'activitat de navegació."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Memòria cau</i> requereixen:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Memòria cau</i> és l'emmagatzematge temporal de recursos de la pàgina web (com ara imatges, scripts, etc.) per accelerar els temps de càrrega de la pàgina durant futures visites."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>Emmagatzematge local</i> requereixen:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>Emmagatzematge local</i> és un mecanisme d'emmagatzematge persistent per emmagatzemar petites quantitats de dades (parells clau-valor) localment al navegador, accessible pel lloc web fins i tot després de tancar el navegador."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> requereixen:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> és un mecanisme d'emmagatzematge de bases de dades basat en navegador obsolet, que permet emmagatzemar dades estructurades en bases de dades basades en SQL."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>Sistemes de fitxers</i> requereixen:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>FilesSystems</i> permet als llocs web emmagatzemar fitxers i dades al sistema de fitxers del vostre ordinador, permetent un emmagatzematge de dades més gran i complex."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>Base de dades indexada</i> requereixen:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>base de dades indexada</i> API de baix nivell per emmagatzemar grans quantitats de dades estructurades, inclosos fitxers i blobs, que permeten capacitats fora de línia."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>Treballadors del Servei</i> requereixen:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>Treballadors del Servei</i> són scripts que s'executen en segon pla del vostre navegador, que permeten funcions com l'accés fora de línia, la sincronització en segon pla i les notificacions push."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>CacheStorage</i> requereixen:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>CacheStorage</i> és un mecanisme d'emmagatzematge utilitzat per ServiceWorkers per emmagatzemar en memòria cau les sol·licituds de xarxa i les respostes per accedir fora de línia i temps de càrrega més ràpids."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa El nom de domini principal (p. <b>google.com</b> en comptes de <b>account.google.com</b> o <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa Els subdominis exactes de les pàgines orientades (p. ex. <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa L'eliminació del <b>http://</b> o <b>https://</b> protocols"
+  },
+  "ih_btnExport": {
+    "message": "Exporta"
+  },
+  "ih_btnImport": {
+    "message": "Importar"
+  },
+  "ph_domExample": {
+    "message": "exemple.cat"
+  },
+  "sz_promptConfirm": {
+    "message": "Esteu segur de netejar no a la llista blanca <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "Els %TYPE% no inclosos a la llista blanca s'han esborrat correctament."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

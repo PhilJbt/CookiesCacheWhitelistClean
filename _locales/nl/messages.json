@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "Laat mijn lijst zien"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>Koekjes</i> vereisen:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>Koekjes</i> zijn kleine gegevensbestanden die door websites in uw browser worden opgeslagen om uw voorkeuren, inlogstatus te onthouden en de browse-activiteit bij te houden."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Cache</i> vereisen:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Cache</i> is de tijdelijke opslag van webpaginabronnen (zoals afbeeldingen, scripts, enz.) om de laadtijden van pagina's tijdens toekomstige bezoeken te versnellen."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>Lokale opslag</i> vereisen:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>Lokale opslag</i> is een persistent opslagmechanisme voor het lokaal opslaan van kleine hoeveelheden gegevens (sleutel-waardeparen) in de browser, toegankelijk voor de website, zelfs nadat de browser is gesloten."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> vereisen:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> is een verouderd browsergebaseerd databaseopslagmechanisme waarmee gestructureerde gegevens kunnen worden opgeslagen in SQL-gebaseerde databases."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>Bestandssystemen</i> vereisen:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>BestandenSystemen</i> stelt websites in staat bestanden en gegevens op het bestandssysteem van uw computer op te slaan, waardoor grotere en complexere gegevensopslag mogelijk wordt."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>GeïndexeerdeDB</i> vereisen:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>geïndexeerdeDB</i> API op laag niveau voor het opslaan van grote hoeveelheden gestructureerde gegevens, inclusief bestanden en blobs, waardoor offline mogelijkheden mogelijk zijn."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>Servicemedewerkers</i> vereisen:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>Servicemedewerkers</i> zijn scripts die op de achtergrond van uw browser worden uitgevoerd en functies zoals offline toegang, achtergrondsynchronisatie en pushmeldingen mogelijk maken."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>Cacheopslag</i> vereisen:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>Cacheopslag</i> is een opslagmechanisme dat door ServiceWorkers wordt gebruikt om netwerkverzoeken en -reacties in de cache op te slaan voor offline toegang en snellere laadtijden."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa De hoofddomeinnaam (bijv. <b>google.com</b> in plaats van <b>account.google.com</b> of <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa De exacte subdomeinen van de getargete pagina's (bijv. <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa Het verwijderen van de <b>http://</b> of <b>https://</b> protocollen"
+  },
+  "ih_btnExport": {
+    "message": "Exporteren"
+  },
+  "ih_btnImport": {
+    "message": "Importeren"
+  },
+  "ph_domExample": {
+    "message": "voorbeeld.nl"
+  },
+  "sz_promptConfirm": {
+    "message": "Weet u zeker dat u niet op de witte lijst wilt opschonen? <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "Niet op de witte lijst geplaatst %TYPE% is succesvol gewist."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

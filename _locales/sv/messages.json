@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "Visa min lista"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>Småkakor</i> behöva:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>Småkakor</i> är små datafiler som lagras av webbplatser i din webbläsare för att komma ihåg dina inställningar, inloggningsstatus och spåra surfaktivitet."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Cache</i> behöva:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Cache</i> är tillfällig lagring av webbsidors resurser (som bilder, skript, etc.) för att påskynda sidladdningstiderna under framtida besök."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>LocalStorage</i> behöva:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>LocalStorage</i> är en beständig lagringsmekanism för att lagra små mängder data (nyckel-värdepar) lokalt i webbläsaren, tillgänglig för webbplatsen även efter att webbläsaren stängts."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> behöva:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> är en föråldrad webbläsarbaserad databaslagringsmekanism som gör att strukturerad data kan lagras i SQL-baserade databaser."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>Filsystem</i> behöva:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>Filsystem</i> tillåter webbplatser att lagra filer och data på din dators filsystem, vilket möjliggör större och mer komplex datalagring."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>IndexeradDB</i> behöva:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>indexeradDB</i> API på låg nivå för lagring av stora mängder strukturerad data, inklusive filer och blobbar, vilket möjliggör offlinefunktioner."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>ServiceWorkers</i> behöva:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>ServiceWorkers</i> är skript som körs i bakgrunden av din webbläsare, vilket möjliggör funktioner som offlineåtkomst, bakgrundssynkronisering och push-meddelanden."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>CacheStorage</i> behöva:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>CacheStorage</i> är en lagringsmekanism som används av ServiceWorkers för att cachelagra nätverksförfrågningar och svar för offlineåtkomst och snabbare laddningstider."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa Huvuddomännamnet (t.ex. <b>google.com</b> i stället för <b>account.google.com</b> eller <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa De exakta underdomänerna för de inriktade sidorna (t.ex. <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa Avlägsnandet av <b>http://</b> eller <b>https://</b> protokoll"
+  },
+  "ih_btnExport": {
+    "message": "Exportera"
+  },
+  "ih_btnImport": {
+    "message": "Importera"
+  },
+  "ph_domExample": {
+    "message": "exempel.se"
+  },
+  "sz_promptConfirm": {
+    "message": "Är du säker på att rengöra inte vitlistad <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "Inte vitlistad %TYPE% har rensats."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

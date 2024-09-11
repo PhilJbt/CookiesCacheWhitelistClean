@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "Näita minu nimekirja"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>Küpsised</i> nõuda:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>Küpsised</i> on väikesed andmefailid, mille veebisaidid salvestavad teie brauserisse, et meeles pidada teie eelistusi, sisselogimisolekut ja jälgida sirvimistegevust."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Vahemälu</i> nõuda:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Vahemälu</i> on veebilehe ressursside (nagu pildid, skriptid jne) ajutine salvestamine, et kiirendada lehe laadimisaega tulevaste külastuste ajal."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>LocalStorage</i> nõuda:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>LocalStorage</i> on püsiv salvestusmehhanism väikeste andmete (võtmeväärtuste paaride) lokaalseks salvestamiseks brauseris, millele veebisait pääseb juurde ka pärast brauseri sulgemist."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> nõuda:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> on aegunud brauseripõhine andmebaasisalvestusmehhanism, mis võimaldab struktureeritud andmeid salvestada SQL-põhistesse andmebaasidesse."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>Failisüsteemid</i> nõuda:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>Failisüsteemid</i> võimaldab veebisaitidel salvestada faile ja andmeid teie arvuti failisüsteemi, võimaldades suuremat ja keerukamat andmete salvestamist."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>IndekseeritudDB</i> nõuda:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>indekseeritudDB</i> madala taseme API suurte struktureeritud andmete, sealhulgas failide ja blobide salvestamiseks, võimaldades võrguühenduseta funktsioone."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>Teenindajad</i> nõuda:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>Teenindajad</i> on teie brauseri taustal töötavad skriptid, mis võimaldavad selliseid funktsioone nagu võrguühenduseta juurdepääs, taustal sünkroonimine ja tõukemärguanded."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>CacheStorage</i> nõuda:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>CacheStorage</i> on salvestusmehhanism, mida ServiceWorkers kasutab võrgupäringute ja vastuste vahemällu salvestamiseks võrguühenduseta juurdepääsu ja kiiremate laadimisaegade jaoks."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa Peamine domeeninimi (nt. <b>google.com</b> asemel <b>account.google.com</b> või <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa sihitud lehtede täpsed alamdomeenid (nt. <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa eemaldamine <b>http://</b> või <b>https://</b> protokollid"
+  },
+  "ih_btnExport": {
+    "message": "Ekspordi"
+  },
+  "ih_btnImport": {
+    "message": "Import"
+  },
+  "ph_domExample": {
+    "message": "näiteks.ee"
+  },
+  "sz_promptConfirm": {
+    "message": "Kas olete kindel, et puhastate, ei ole lubatud <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "Lubatud loendisse lisamata %TYPE% on edukalt kustutatud."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

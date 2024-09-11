@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "Показати мій список"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>Печиво</i> вимагати:"
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>Печиво</i> це невеликі файли даних, які зберігаються веб-сайтами у вашому браузері, щоб запам’ятати ваші налаштування, статус входу та відстежувати дії веб-переглядача."
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>Кеш</i> вимагати:"
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>Кеш</i> це тимчасове зберігання ресурсів веб-сторінки (наприклад, зображень, сценаріїв тощо) для прискорення завантаження сторінки під час майбутніх відвідувань."
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>LocalStorage</i> вимагати:"
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>LocalStorage</i> це постійний механізм зберігання для локального зберігання невеликих обсягів даних (пар ключ-значення) у браузері, доступних веб-сайту навіть після того, як браузер закрито."
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> вимагати:"
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> це застарілий механізм зберігання бази даних на основі браузера, що дозволяє зберігати структуровані дані в базах даних на основі SQL."
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>Файлові системи</i> вимагати:"
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>Файлові системи</i> дозволяє веб-сайтам зберігати файли та дані у файловій системі вашого комп’ютера, створюючи можливість зберігання більших і складніших даних."
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>Індексована БД</i> вимагати:"
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>індексована БД</i> низькорівневий API для зберігання великих обсягів структурованих даних, включаючи файли та blob-об’єкти, що дозволяє працювати в автономному режимі."
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>ServiceWorkers</i> вимагати:"
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>ServiceWorkers</i> це сценарії, що працюють у фоновому режимі вашого браузера, уможливлюючи такі функції, як офлайн-доступ, фонова синхронізація та push-сповіщення."
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>CacheStorage</i> вимагати:"
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>CacheStorage</i> це механізм зберігання, який використовується ServiceWorkers для кешування мережевих запитів і відповідей для офлайн-доступу та швидшого завантаження."
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa Основне доменне ім’я (наприклад, <b>google.com</b> замість <b>account.google.com</b> або <b>www.google.com</b>)"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa Точні субдомени цільових сторінок (наприклад, <b>account.google.com</b>)"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa Видалення <b>http://</b> або <b>https://</b> протоколи"
+  },
+  "ih_btnExport": {
+    "message": "Експорт"
+  },
+  "ih_btnImport": {
+    "message": "Імпорт"
+  },
+  "ph_domExample": {
+    "message": "приклад.ua"
+  },
+  "sz_promptConfirm": {
+    "message": "Ви впевнені, що очищаєте не в білому списку <b>%TYPE%</b> ?"
+  },
+  "sz_notifyCleared": {
+    "message": "Не внесені в білий список %TYPE% успішно видалено."
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}

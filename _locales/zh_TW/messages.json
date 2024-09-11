@@ -1,0 +1,98 @@
+{
+  "ih_summaryExpand": {
+    "message": "顯示我的清單"
+  },
+  "ih_noteCookiesReq": {
+    "message": "<i>餅乾</i> 要求："
+  },
+  "ih_noteCookiesDesc": {
+    "message": "<i>餅乾</i> 是網站在您的瀏覽器上儲存的小數據文件，用於記住您的偏好、登入狀態和追蹤瀏覽活動。"
+  },
+  "ih_noteCacheReq": {
+    "message": "<i>快取</i> 要求："
+  },
+  "ih_noteCacheDesc": {
+    "message": "<i>快取</i> 是網頁資源（如圖片、腳本等）的臨時存儲，以加快將來造訪時的頁面載入時間。"
+  },
+  "ih_noteLocalStorageReq": {
+    "message": "<i>本地儲存</i> 要求："
+  },
+  "ih_noteLocalStorageDesc": {
+    "message": "<i>本地儲存</i> 是一種持久性儲存機制，用於在瀏覽器中本機儲存少量資料（鍵值對），即使瀏覽器關閉後網站也可以存取。"
+  },
+  "ih_noteWebSQLReq": {
+    "message": "<i>WebSQL</i> 要求："
+  },
+  "ih_noteWebSQLDesc": {
+    "message": "<i>WebSQL</i> 是一種已棄用的基於瀏覽器的資料庫儲存機制，允許將結構化資料儲存在基於 SQL 的資料庫中。"
+  },
+  "ih_noteFileSystemsReq": {
+    "message": "<i>檔案系統</i> 要求："
+  },
+  "ih_noteFileSystemsDesc": {
+    "message": "<i>檔案系統</i> 允許網站在電腦的檔案系統上儲存檔案和數據，從而實現更大、更複雜的數據儲存。"
+  },
+  "ih_noteIndexedDBReq": {
+    "message": "<i>索引資料庫</i> 要求："
+  },
+  "ih_noteIndexedDBDesc": {
+    "message": "<i>索引資料庫</i> 用於儲存大量結構化資料（包括檔案和 blob）的低階 API，支援離線功能。"
+  },
+  "ih_noteServiceWorkersReq": {
+    "message": "<i>服務工作者</i> 要求："
+  },
+  "ih_noteServiceWorkersDesc": {
+    "message": "<i>服務工作者</i> 是在瀏覽器後台運行的腳本，支援離線存取、後台同步和推播通知等功能。"
+  },
+  "ih_noteCacheStorageReq": {
+    "message": "<i>快取儲存</i> 要求："
+  },
+  "ih_noteCacheStorageDesc": {
+    "message": "<i>快取儲存</i> 是 ServiceWorkers 用於快取網路請求和回應的儲存機制，以實現離線存取和更快的載入時間。"
+  },
+  "ih_noteDomainMain": {
+    "message": "\u25aa 主域名（例如 <b>Google網站</b> 而不是 <b>account.google.com</b> 或者 <b>www.google.com</b>）"
+  },
+  "ih_noteDomainSub": {
+    "message": "\u25aa 目標頁面的確切子網域（例如 <b>account.google.com</b>）"
+  },
+  "ih_noteProtocolsRem": {
+    "message": "\u25aa 刪除 <b>http://</b> 或者 <b>https://</b> 協定"
+  },
+  "ih_btnExport": {
+    "message": "出口"
+  },
+  "ih_btnImport": {
+    "message": "進口"
+  },
+  "ph_domExample": {
+    "message": "例子.cn"
+  },
+  "sz_promptConfirm": {
+    "message": "您確定要清理未列入白名單的嗎 <b>％TYPE％</b> ？"
+  },
+  "sz_notifyCleared": {
+    "message": "未列入白名單的 %TYPE% 已成功清除。"
+  },
+  "extTitle": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extDescription": {
+    "message": "Clear cookies and various types of cache when the browser starts up."
+  },
+  "ih_extTitle_l1": {
+    "message": "Cookie & Cache"
+  },
+  "ih_extTitle_l2": {
+    "message": "Whitelist Clean"
+  },
+  "ih_extTitle_12": {
+    "message": "Cookie & Cache Whitelist Clean"
+  },
+  "extTitleExport": {
+    "message": "CCWC"
+  },
+  "sz_notifyTitle": {
+    "message": "CCWC"
+  }
+}
