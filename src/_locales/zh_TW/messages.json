@@ -78,7 +78,7 @@
     "message": "Cookie & Cache Whitelist Clean"
   },
   "extDescription": {
-    "message": "Clear cookies and various types of cache when the browser starts up."
+    "message": "瀏覽器啟動時清除巧克力餅乾和快取。"
   },
   "ih_extTitle_l1": {
     "message": "Cookie & Cache"

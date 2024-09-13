@@ -1,84 +1,84 @@
 {
   "ih_summaryExpand": {
-    "message": "Tunjukkan senarai saya"
+    "message": "تونجوقكن سناراي ساي"
   },
   "ih_noteCookiesReq": {
-    "message": "<i>biskut</i> memerlukan:"
+    "message": "<i>كوكي</i> ممرلوكن:"
   },
   "ih_noteCookiesDesc": {
-    "message": "<i>biskut</i> ialah fail data kecil yang disimpan oleh tapak web pada penyemak imbas anda untuk mengingati keutamaan anda, status log masuk dan menjejaki aktiviti penyemakan imbas."
+    "message": "<i>كوكي</i> اداله فايل داتا كچيل يڠ دسيمڤن اوليه لامن ويب ڤد ڤلايار اندا اونتوق مڠيڠاتي كبوليهن اندا، ستاتوس ماسوق، دان منججق اكتيۏيتي ڤلايار."
   },
   "ih_noteCacheReq": {
-    "message": "<i>Cache</i> memerlukan:"
+    "message": "<i>كاش</i> ممرلوكن:"
   },
   "ih_noteCacheDesc": {
-    "message": "<i>Cache</i> ialah storan sementara sumber halaman web (seperti imej, skrip, dll.) untuk mempercepatkan masa pemuatan halaman semasa lawatan akan datang."
+    "message": "<i>Cache</i> اداله ڤڽيمڤنن سمنتارا سومبر لامن ويب ﴿سڤرتي ايميج، سكريڤ، دان سباڬايڽ﴾ اونتوق ممڤرچڤتكن ماس ڤمواتن لامن سماس لاوتن ماس هادڤن.",
   },
   "ih_noteLocalStorageReq": {
-    "message": "<i>LocalStorage</i> memerlukan:"
+    "message": "<i>ڤڽيمڤنن تمڤتن</i> ممرلوكن:",
   },
   "ih_noteLocalStorageDesc": {
-    "message": "<i>LocalStorage</i> ialah mekanisme storan berterusan untuk menyimpan sejumlah kecil data (pasangan nilai kunci) secara setempat dalam penyemak imbas, boleh diakses oleh tapak web walaupun selepas penyemak imbas ditutup."
+    "message": "<i>LocalStorage</i> اداله ميكانيسمى ڤڽيمڤنن برتروسن اونتوق مڽيمڤن جومله داتا يڠ كچيل ﴿ڤاسڠن كونچي-نيلاي﴾ سچارا تمڤتن دالم ڤلايار، بوليه دأكسس اوليه لامن ويب والاوڤون سلڤس ڤلايار دتوتوڤ.",
   },
   "ih_noteWebSQLReq": {
-    "message": "<i>WebSQL</i> memerlukan:"
+    "message": "<i>WebSQL</i> ممرلوكن:",
   },
   "ih_noteWebSQLDesc": {
-    "message": "<i>WebSQL</i> ialah mekanisme storan pangkalan data berasaskan pelayar yang tidak digunakan lagi, membenarkan data berstruktur disimpan dalam pangkalan data berasaskan SQL."
+    "message": "<i>WebSQL</i> اداله ميكانيسمى ڤڽيمڤنن ڤڠكالن داتا برباسيس ڤلايار يڠ تله دڬوناكن، ممبوليهكن داتا ترسوسون دسيمڤن دالم ڤڠكالن داتا برباسيس SQL.",
   },
   "ih_noteFileSystemsReq": {
-    "message": "<i>Sistem Fail</i> memerlukan:"
+    "message": "<i>سيستم فايل</i> ممرلوكن:",
   },
   "ih_noteFileSystemsDesc": {
-    "message": "<i>FilesSystems</i> membolehkan tapak web menyimpan fail dan data pada sistem fail komputer anda, membolehkan storan data yang lebih besar dan lebih kompleks."
+    "message": "<i>FilesSystems</i> ممبوليهكن لامن ويب مڽيمڤن فايل دان داتا ڤد سيستم فايل كومڤوتر اندا، ممبوليهكن ڤڽيمڤنن داتا يڠ لبيه بسر دان كومڤليك س.",
   },
   "ih_noteIndexedDBReq": {
-    "message": "<i>IndexedDB</i> memerlukan:"
+    "message": "<i>IndexedDB</i> ممرلوكن:",
   },
   "ih_noteIndexedDBDesc": {
-    "message": "<i>indexedDB</i> API peringkat rendah untuk menyimpan sejumlah besar data berstruktur, termasuk fail dan gumpalan, membolehkan keupayaan luar talian."
+    "message": "<i>indexedDB</i> API ڤريڠكت رنده اونتوق مڽيمڤن داتا ترسوسون دالم جومله بسر، ترماسوق فايل دان بلوب، ممبوليهكن كممڤوان لوار تالين.",
   },
   "ih_noteServiceWorkersReq": {
-    "message": "<i>ServiceWorkers</i> memerlukan:"
+    "message": "<i>ڤكرجا ڤرخدمتن</i> ممرلوكن:",
   },
   "ih_noteServiceWorkersDesc": {
-    "message": "<i>ServiceWorkers</i> ialah skrip berjalan di latar belakang penyemak imbas anda, mendayakan ciri seperti akses luar talian, penyegerakan latar belakang dan pemberitahuan tolak."
+    "message": "<i>ServiceWorkers</i> اداله سكريڤ يڠ برجالن د لاتر بلاكڠ ڤلايار اندا، ممبوليهكن چيري-چيري سڤرتي اكسس لوار تالين، ڤڽلارسن لاتر بلاكڠ، دان ڤسانن تورون.",
   },
   "ih_noteCacheStorageReq": {
-    "message": "<i>CacheStorage</i> memerlukan:"
+    "message": "<i>CacheStorage</i> ممرلوكن:",
   },
   "ih_noteCacheStorageDesc": {
-    "message": "<i>CacheStorage</i> ialah mekanisme storan yang digunakan oleh ServiceWorkers untuk cache permintaan rangkaian dan respons untuk akses luar talian dan masa muat yang lebih cepat."
+    "message": "<i>CacheStorage</i> اداله ميكانيسمى ڤڽيمڤنن يڠ دڬوناكن اوليه ServiceWorkers اونتوق مڽيمڤن ڤرمينتأن دان ريسڤون راڠكين اونتوق اكسس لوار تالين دان ماس ڤمواتن يڠ لبيه ڤانتس.",
   },
   "ih_noteDomainMain": {
-    "message": "\u25aa Nama domain utama (cth. <b>google.com</b> bukannya <b>account.google.com</b> atau <b>www.google.com</b>)"
+    "message": "نام دوماءين اوتام ﴿ميثلڽ <b>google.com</b> بوكنڽ <b>account.google.com</b> اتاو <b>www.google.com</b>﴾",
   },
   "ih_noteDomainSub": {
-    "message": "\u25aa Subdomain yang tepat bagi halaman yang disasarkan (cth. <b>account.google.com</b>)"
+    "message": "سوبدوماءين يڠ تڤت دري لامن يڠ دساسركن (ميثلڽ <b>account.google.com</b>)",
   },
   "ih_noteProtocolsRem": {
-    "message": "\u25aa Penyingkiran <b>http://</b> atau <b>https://</b> protokol"
+    "message": "ڤمبواڠن ڤروتوكول <b>http://</b> اتاو <b>https://</b>",
   },
   "ih_btnExport": {
-    "message": "Eksport"
+    "message": "ايكسڤورت",
   },
   "ih_btnImport": {
-    "message": "Import"
+    "message": "ايمڤورت",
   },
   "ph_domExample": {
-    "message": "contoh.my"
+    "message": "چونتوه.my",
   },
   "sz_promptConfirm": {
-    "message": "Adakah anda pasti membersihkan bukan disenarai putih <b>%TYPE%</b> ?"
+    "message": "اندا ڤستي اونتوق ممبرسيهكن تيدق دسناراي ڤوتيه <b>%TYPE%</b>؟",
   },
   "sz_notifyCleared": {
-    "message": "Tidak disenarai putih %TYPE% telah berjaya dibersihkan."
+    "message": "تيدق دسناراي ڤوتيه %TYPE% تله برجاي دبرسيهكن.",
   },
   "extTitle": {
     "message": "Cookie & Cache Whitelist Clean"
   },
   "extDescription": {
-    "message": "Clear cookies and various types of cache when the browser starts up."
+    "message": "ڤادمكن كوكي دان ڤلباڬاي جنيس سيمڤنن اڤابيلا ڤلايار برمولا."
   },
   "ih_extTitle_l1": {
     "message": "Cookie & Cache"

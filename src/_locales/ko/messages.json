@@ -78,7 +78,7 @@
     "message": "Cookie & Cache Whitelist Clean"
   },
   "extDescription": {
-    "message": "Clear cookies and various types of cache when the browser starts up."
+    "message": "브라우저가 시작될 때 쿠키와 다양한 유형의 캐시를 지웁니다."
   },
   "ih_extTitle_l1": {
     "message": "Cookie & Cache"

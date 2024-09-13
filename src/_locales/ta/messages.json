@@ -78,7 +78,7 @@
     "message": "Cookie & Cache Whitelist Clean"
   },
   "extDescription": {
-    "message": "Clear cookies and various types of cache when the browser starts up."
+    "message": "உலாவி தொடங்கும் போது குக்கீகள் மற்றும் பல்வேறு வகையான தற்காலிக சேமிப்பை அழிக்கவும்."
   },
   "ih_extTitle_l1": {
     "message": "Cookie & Cache"

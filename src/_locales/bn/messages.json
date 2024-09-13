@@ -78,7 +78,7 @@
     "message": "Cookie & Cache Whitelist Clean"
   },
   "extDescription": {
-    "message": "Clear cookies and various types of cache when the browser starts up."
+    "message": "ব্রাউজার শুরু হলে কুকিজ এবং বিভিন্ন ধরনের ক্যাশে সাফ করুন।"
   },
   "ih_extTitle_l1": {
     "message": "Cookie & Cache"
