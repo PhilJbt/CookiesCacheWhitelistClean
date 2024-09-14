@@ -137,11 +137,14 @@ document.addEventListener('DOMContentLoaded', function() {
 							// Empty all entries in the list
 							document.getElementById(`${_type}-whitelist`).innerHTML = '';
 							// Fill in the concerned whitelist only
-							storageGet([_type], domain, false);
+							storageGet([_type], domain, false);							
+							// Domain is valid
+							return true;
 						}
+						else
+							// Domain is not valid
+							return false;
 					});
-					// Domain is valid
-					return true;
 				}
 				// The domain is not valid, according to psl
 				else
@@ -152,6 +155,8 @@ document.addEventListener('DOMContentLoaded', function() {
 				return false;
 			}
 		}
+		else
+			return false;
 	}
 
 	/**
