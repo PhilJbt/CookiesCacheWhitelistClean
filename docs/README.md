@@ -12,7 +12,6 @@ Set your own whitelists, and everything else will be removed when your browser s
 ![screenshot3](img/screen_3.png)
 ![screenshot4](img/screen_4.png)
 
-> [!NOTE]
-> Credits:<br/>
+> Third-party credits:<br/>
 > Domain Check Library: https://github.com/lupomontero/psl<br/>
 > Icon: https://www.flaticon.com/authors/vectorsmarket15
