@@ -63,12 +63,14 @@ document.addEventListener('DOMContentLoaded', function() {
 			li.textContent = domain;
 			
 			// Current tab url and current iterated domain are valid
-			if (psl.isValid(_urlCurrent || '')
-				&& psl.isValid(domain || ''))
+			if (_urlCurrent !== null
+			&& (_urlCurrent.substr(0, 7) === 'file://'
+			|| (psl.isValid(_urlCurrent || '')
+				&& psl.isValid(domain || ''))))
 				// Iterated domain ends up with current tab url
 				// Or the current tab url includes the iterated domain
-				if (_urlCurrent.endsWith(domain)
-					|| domain.includes(_urlCurrent)) { // CAUTION : Whitelisted Cookies' domains do not include sub-domains
+				if ((domain === 'file://' && _urlCurrent.substr(0, 7) === 'file://')
+				  || (_urlCurrent.endsWith(domain) || domain.includes(_urlCurrent))) { // CAUTION : Whitelisted Cookies' domains do not include sub-domains
 					document.getElementById(`details-${_typeName}`).setAttribute("open", "open");
 					li.classList.add("anim-blink");
 				}
@@ -115,15 +117,18 @@ document.addEventListener('DOMContentLoaded', function() {
 		const domainInputId = `${_type}-domain`;
 		const storageKey = `${_type}Whitelist`;
 		const cookies = _type === 'cookies';
+		let domain = document.getElementById(domainInputId).value;
 		
-		// Trip begin/end spaces and remove Host Name Label from domain
-		let domain = psl.parse(getDomainOnly(document.getElementById(domainInputId).value));
-		// Remove Subdomain Label if currently working of the Cookies whitelist
-		domain = trimSubdomain(domain, cookies);
+		if (domain !== 'file://') {
+			// Trip begin/end spaces and remove Host Name Label from domain
+			domain = psl.parse(getDomainOnly(domain));
+			// Remove Subdomain Label if currently working of the Cookies whitelist
+			domain = trimSubdomain(domain, cookies);
+		}
 		
 		if (domain) {
 			try {
-				if (psl.isValid(domain || '')) {
+				if (domain === 'file://' || psl.isValid(domain || '')) {
 					// Get whitelisted domain of the current whitelist
 					chrome.storage.sync.get([storageKey], function(data) {
 						// The exact domain is not whitelisted
@@ -194,19 +199,35 @@ document.addEventListener('DOMContentLoaded', function() {
 			let urlCurrent = null;
 			
 			if (tab) {
-				let url = psl.parse(getDomainOnly(tab.pendingUrl || tab.url || ''));
+				const urlRaw = tab.pendingUrl || tab.url || '';
 				
-				if (psl.isValid(url.domain || '')) {
+				if (urlRaw.substr(0, 7) === 'file://') {
 					// Store current tab url since it's valid
 					// Used in the following sequence to fill in text inputs
 					// Its future use is to check whether the url of the current tab is already whitelisted
-					urlCurrent = trimSubdomain(url, true);
-					
+					urlCurrent = 'file://';
+						
 					// For all the text inputs
 					document.querySelectorAll('input[type="text"]').forEach((e) => {
 						// Fill the text input with the domain (with or without the Host Name Label)
-						e.value = trimSubdomain(url, e.id === 'cookies-domain');
+						e.value = 'file://';
 					});
+				}
+				else {
+					let url = psl.parse(getDomainOnly(urlRaw));
+					
+					if (psl.isValid(url.domain || '')) {
+						// Store current tab url since it's valid
+						// Used in the following sequence to fill in text inputs
+						// Its future use is to check whether the url of the current tab is already whitelisted
+						urlCurrent = trimSubdomain(url, true);
+						
+						// For all the text inputs
+						document.querySelectorAll('input[type="text"]').forEach((e) => {
+							// Fill the text input with the domain (with or without the Host Name Label)
+							e.value = trimSubdomain(url, e.id === 'cookies-domain');
+						});
+					}
 				}
 			}
 			
@@ -231,7 +252,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			e.addEventListener('input', function() {
 				if (e.value.length > 0) {
 					try {
-						if (psl.isValid(e.value))
+						if (psl.isValid(e.value) || e.value === 'file://')
 							e.style.backgroundColor = '#e8e8e8';
 						else
 							e.style.backgroundColor = '#ffbdbd';
@@ -369,7 +390,7 @@ document.addEventListener('DOMContentLoaded', function() {
 											// Format and check the domain validity
 											let newDom = trimSubdomain(getDomainOnly(dom), browsingDataType === 'cookies');
 											if (newDom
-											&& psl.isValid(newDom || '')) {
+											&& (e.value === 'file://' || psl.isValid(newDom || ''))) {
 													if (!whitelist.includes(newDom))
 														whitelist.push(newDom);
 											}

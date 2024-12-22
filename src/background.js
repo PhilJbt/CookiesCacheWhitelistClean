@@ -37,12 +37,12 @@ chrome.runtime.onInstalled.addListener((details) => {
 */
 async function sendNotif(_message) {
 	const notifId = await chrome.notifications.create({
-			type: 'basic',
-			iconUrl: 'img/icn16.png',
-			title: _message.notifTtl,
-			message: _message.notifMsg,
-			priority: 2
-		});
+		type: 'basic',
+		iconUrl: 'img/icn16.png',
+		title: _message.notifTtl,
+		message: _message.notifMsg,
+		priority: 2
+	});
 	
 	setTimeout(() => {
 		chrome.notifications.clear(notifId);
@@ -60,7 +60,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     const result = "cleared";
     sendResponse({ result });
   }
-	// Display a badget on thee extension icon about the current tab domain
+	// Display a badge on the extension icon about the current tab domain
 	else if (message.type === 'badgeSet') {
     chrome.browserAction.setBadgeText({
       tabId: sender.tab.id,
@@ -81,12 +81,14 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 */
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
 	// Clean the url
-	let urlCurrent = getDomainOnly(tab.pendingUrl || tab.url || '');
+	const urlRaw = tab.pendingUrl || tab.url || '';
+	let urlCurrent = (urlRaw === 'file://' ? 'file://' : getDomainOnly(urlRaw));
 	
 	// The current tab domain is valid
-	if (psl.isValid(urlCurrent)) {
+	if (urlCurrent === 'file://' || psl.isValid(urlCurrent)) {
 		// Keep only domains label
-		urlCurrent = trimSubdomain(urlCurrent, true);
+		if (urlCurrent !== 'file://')
+			urlCurrent = trimSubdomain(urlCurrent, true);
 		
 		// Retrieve all whitelists stored
 		chrome.storage.sync.get([
@@ -119,7 +121,8 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
 				// Iterate over all stored domains in this whitelist
 				arr.forEach((str) => {
 					// If the whitelist includes the current tab domain 
-					if (str.endsWith(urlCurrent))
+					if ((str === 'file://' && urlCurrent.substr(0, 7) === 'file://')
+						|| str.endsWith(urlCurrent))
 						++count;
 				});
 			});
@@ -201,21 +204,26 @@ function willClear(_cleartype, _switcher, _currenttype) {
 */
 function fullDomainForms(_arr, _cookies) {
 	return (_arr || []).flatMap(dom => {
-		const domTld = psl.get(dom);
-		return _cookies === 1
-			// Forms a domain can be registered under when using chrome.cookies.remove
-			? [
-				domTld,
-				`.${domTld}`,
-				`http://${domTld}`,
-				`https://${domTld}`
-			]
-			// Forms a domain can be registered under when using chrome.browsingData.remove
-			// If browsing data type is Cookies, remove any sub-domain
-			: [
-				`http://${_cookies ? domTld : dom}`,
-				`https://${_cookies ? domTld : dom}`
-			];
+		if (dom !== 'file://') {
+			const domTld = psl.get(dom);
+			return _cookies === 1
+				// Forms a domain can be registered under when using chrome.cookies.remove
+				? [
+					domTld,
+					`.${domTld}`,
+					`http://${domTld}`,
+					`https://${domTld}`
+				]
+				// Forms a domain can be registered under when using chrome.browsingData.remove
+				// If browsing data type is Cookies, remove any sub-domain
+				: [
+					`http://${_cookies ? domTld : dom}`,
+					`https://${_cookies ? domTld : dom}`
+				];
+		}
+		else {
+			return 'file://';
+		}
 	});
 }
 
