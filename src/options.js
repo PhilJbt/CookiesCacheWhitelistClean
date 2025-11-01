@@ -8,7 +8,17 @@ document.addEventListener('DOMContentLoaded', function() {
 	localize();
 	modalInit();
 	clearInit();
-
+	
+	/**
+	* Check if the string is an IPv4 or IPv6
+	* @param {string} _url - Given domain
+	* @return {bool} The string is an IPv4 or IPv6 (true) or not (false)
+	*/
+	function isValidIP(_val = '') {
+		var isValidIP = /^(\s*((([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(:[0-9]{1,5})?\s*$)|(\s*(\[((([0-9A-Fa-f]{1,4}:){7}([0-9A-Fa-f]{1,4}|:))|(([0-9A-Fa-f]{1,4}:){6}(:[0-9A-Fa-f]{1,4}|((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){5}(((:[0-9A-Fa-f]{1,4}){1,2})|:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){4}(((:[0-9A-Fa-f]{1,4}){1,3})|((:[0-9A-Fa-f]{1,4})?:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){3}(((:[0-9A-Fa-f]{1,4}){1,4})|((:[0-9A-Fa-f]{1,4}){0,2}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){2}(((:[0-9A-Fa-f]{1,4}){1,5})|((:[0-9A-Fa-f]{1,4}){0,3}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){1}(((:[0-9A-Fa-f]{1,4}){1,6})|((:[0-9A-Fa-f]{1,4}){0,4}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(:(((:[0-9A-Fa-f]{1,4}){1,7})|((:[0-9A-Fa-f]{1,4}){0,5}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:)))(%.+)?\])(:[0-9]{1,5})?\s*$)|(\s*((([0-9A-Fa-f]{1,4}:){7}([0-9A-Fa-f]{1,4}|:))|(([0-9A-Fa-f]{1,4}:){6}(:[0-9A-Fa-f]{1,4}|((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){5}(((:[0-9A-Fa-f]{1,4}){1,2})|:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){4}(((:[0-9A-Fa-f]{1,4}){1,3})|((:[0-9A-Fa-f]{1,4})?:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){3}(((:[0-9A-Fa-f]{1,4}){1,4})|((:[0-9A-Fa-f]{1,4}){0,2}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){2}(((:[0-9A-Fa-f]{1,4}){1,5})|((:[0-9A-Fa-f]{1,4}){0,3}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){1}(((:[0-9A-Fa-f]{1,4}){1,6})|((:[0-9A-Fa-f]{1,4}){0,4}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(:(((:[0-9A-Fa-f]{1,4}){1,7})|((:[0-9A-Fa-f]{1,4}){0,5}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:)))(%.+)?\s*$))/;
+		return isValidIP.test(_val);
+	}
+	
 	/**
 	* Retrieve whitelists and switch states from storage
 	* @param {array} _browsingDataTypes - Browsing data types to process
@@ -117,9 +127,10 @@ document.addEventListener('DOMContentLoaded', function() {
 		const domainInputId = `${_type}-domain`;
 		const storageKey = `${_type}Whitelist`;
 		const cookies = _type === 'cookies';
-		let domain = document.getElementById(domainInputId).value;
+		let domain = document.getElementById(domainInputId).value || '';
 		
-		if (domain !== 'file://') {
+		// If domain is not a local file nor an IP
+		if (domain !== 'file://' && isValidIP(domain) === false) {
 			// Trip begin/end spaces and remove Host Name Label from domain
 			domain = psl.parse(getDomainOnly(domain));
 			// Remove Subdomain Label if currently working of the Cookies whitelist
@@ -128,7 +139,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		
 		if (domain) {
 			try {
-				if (domain === 'file://' || psl.isValid(domain || '')) {
+				if (domain === 'file://' || psl.isValid(domain) || isValidIP(domain)) {
 					// Get whitelisted domain of the current whitelist
 					chrome.storage.sync.get([storageKey], function(data) {
 						// The exact domain is not whitelisted
@@ -170,7 +181,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	* @param {string} _browsingDataType - Whitelist name
 	*/
 	function whitelistDomainRemove(_domain, _browsingDataType) {
-			const storageKey = `${_browsingDataType}Whitelist`;
+		const storageKey = `${_browsingDataType}Whitelist`;
 		chrome.storage.sync.get([storageKey], function(data) {
 			// Get the whitelist
 			let whitelist = data[storageKey] || [];
@@ -201,16 +212,37 @@ document.addEventListener('DOMContentLoaded', function() {
 			if (tab) {
 				const urlRaw = tab.pendingUrl || tab.url || '';
 				
+				let bIsIP = false;
+				let strIP = '';
+				try {
+					strIP = new URL(urlRaw).host;
+					bIsIP = isValidIP(strIP);
+				} catch (error) {
+					bIsIP = false;
+				}
+
 				if (urlRaw.substr(0, 7) === 'file://') {
 					// Store current tab url since it's valid
 					// Used in the following sequence to fill in text inputs
 					// Its future use is to check whether the url of the current tab is already whitelisted
 					urlCurrent = 'file://';
-						
+					
 					// For all the text inputs
 					document.querySelectorAll('input[type="text"]').forEach((e) => {
 						// Fill the text input with the domain (with or without the Host Name Label)
 						e.value = 'file://';
+					});
+				}
+				else if (bIsIP) {
+					// Store current tab url since it's valid
+					// Used in the following sequence to fill in text inputs
+					// Its future use is to check whether the url of the current tab is already whitelisted
+					urlCurrent = strIP;
+					
+					// For all the text inputs
+					document.querySelectorAll('input[type="text"]').forEach((e) => {
+						// Fill the text input with the domain (with or without the Host Name Label)
+						e.value = strIP;
 					});
 				}
 				else {
@@ -252,7 +284,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			e.addEventListener('input', function() {
 				if (e.value.length > 0) {
 					try {
-						if (psl.isValid(e.value) || e.value === 'file://')
+						if (psl.isValid(e.value) || e.value === 'file://' || isValidIP(e.value) === true)
 							e.style.backgroundColor = '#e8e8e8';
 						else
 							e.style.backgroundColor = '#ffbdbd';
