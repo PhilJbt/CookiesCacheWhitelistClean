@@ -306,23 +306,47 @@ function clearBrowsingData(_cleartype = null) {
 			
 			// Delete Cookies if applicable
 			if (cookiesSwitcher === 'true') {
-				// Not using the chrome.cookies API function will result in certain targeted cookies not being deleted
-				chrome.cookies.getAll({}, (cookies) => {
-						cookies.forEach((cookie) => {
-								// Check if the cookie's domain is not in the excluded list
-								if (!cookiesWhitelist_cookieAPI.some((excludedDomain) => cookie.domain.includes(excludedDomain))) {
-										// Remove the cookie
-										chrome.cookies.remove({
-											url: (cookie.secure ? "https://" : "http://") + cookie.domain + cookie.path,
-											name: cookie.name
-										}, (details) => {
-										//console.log(`Removed cookie: ${details.name} from ${(details.secure ? 'https://' : 'http://')}${cookie.domain}`);
-									});
-								}
-						});
-				});
-		
-				clearBrowsingData_("cookies", cookiesWhitelist_browsingdataAPI); // cookies
+			    // { partitionKey: {} } allows retrieving ALL cookies, including partitioned ones
+			    chrome.cookies.getAll({ partitionKey: {} }, (cookies) => {
+			        cookies.forEach((cookie) => {
+			            // Déterminer si le cookie doit être préservé selon les règles CHIPS
+			            let keepCookie = false;
+			            
+			            // Does host is whitelisted
+			            const isHostWhitelisted = cookiesWhitelist_cookieAPI.some((excludedDomain) => cookie.domain.includes(excludedDomain));
+			            
+			            // Partitioned cookie
+			            if (cookie.partitionKey) {
+			                // Does top-frame site is whitelisted
+			                const topFrameSite = cookie.partitionKey.topLevelSite || '';
+			                const isTopFrameWhitelisted = cookiesWhitelist_cookieAPI.some((excludedDomain) => topFrameSite.includes(excludedDomain));
+			                
+			                if (isHostWhitelisted && isTopFrameWhitelisted)
+			                    keepCookie = true;
+	                // Standard cookie
+			            } else {
+			                if (isHostWhitelisted)
+			                    keepCookie = true; 
+			            }
+
+			            if (!keepCookie) {
+			                const removeParams = {
+			                    url: (cookie.secure ? "https://" : "http://") + cookie.domain + cookie.path,
+			                    name: cookie.name,
+			                    storeId: cookie.storeId
+			                };
+			                
+			                // If the cookie has a partitionKey, it must be passed for the deletion to work
+			                if (cookie.partitionKey)
+			                    removeParams.partitionKey = cookie.partitionKey;
+
+			                chrome.cookies.remove(removeParams, (details) => {
+			                });
+			            }
+			        });
+			    });
+
+			    clearBrowsingData_("cookies", cookiesWhitelist_browsingdataAPI); // cookies
 			}
 			
 			// Delete other types of browsing data, if applicable
