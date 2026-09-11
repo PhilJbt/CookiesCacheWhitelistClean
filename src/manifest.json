@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "__MSG_extTitle__",
   "description": "__MSG_extDescription__",
-  "version": "1.7",
+  "version": "1.9.1",
   "default_locale": "en",
   "permissions": [
     "storage",
@@ -11,6 +11,9 @@
     "tabs",
     "downloads",
 		"notifications"
+  ],
+  "host_permissions": [
+    "<all_urls>"
   ],
   "background": {
     "service_worker": "background.js"

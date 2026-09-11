@@ -150,9 +150,12 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
 				// Iterate over all stored domains in this whitelist
 				arr.forEach((str) => {
 					// If the whitelist includes the current tab domain 
-					if ((str === 'file://' && urlCurrent.substr(0, 7) === 'file://')
-						|| str.endsWith(urlCurrent))
-						++count;
+					const cleanStr = str.replace(/^https?:\/\//, '');
+					if ((str === 'file://' && urlCurrent.startsWith('file://')) 
+					    || urlCurrent === cleanStr 
+					    || urlCurrent.endsWith('.' + cleanStr)) {
+					    ++count;
+					}
 				});
 			});
 
@@ -225,6 +228,23 @@ function willClear(_cleartype, _switcher, _currenttype) {
 	// Switch state not defined, use default state 'true' (do wipe)
 	else
 		return (_switcher || 'true');
+}
+
+/**
+ * Checks whether a domain name matches the excluded domain exactly or is a subdomain of it
+ * @param {string} domain - The domain to test (e.g., "avex.com", "sub.x.com", or ".x.com")
+ * @param {string} excludedDomain - The domain included in the whitelist (e.g., "x.com" or "http://x.com")
+ * @return {boolean}
+ */
+function matchesDomain(domain, excludedDomain) {
+    if (!domain || !excludedDomain) return false;
+
+    // Cleaning up prefixes (http, https, leading dots)
+    let cleanDomain = domain.replace(/^https?:\/\//, '').replace(/^\./, '').toLowerCase();
+    let cleanExcluded = excludedDomain.replace(/^https?:\/\//, '').replace(/^\./, '').toLowerCase();
+
+    // Exact match or strict subdomain match (.x.com)
+    return cleanDomain === cleanExcluded || cleanDomain.endsWith('.' + cleanExcluded);
 }
 
 /**
@@ -313,8 +333,8 @@ function clearBrowsingData(_cleartype = null) {
 			            let keepCookie = false;
 			            
 			            // Does host is whitelisted
-			            const isHostWhitelisted = cookiesWhitelist_cookieAPI.some((excludedDomain) => cookie.domain.includes(excludedDomain));
-			            
+									const isHostWhitelisted = cookiesWhitelist_cookieAPI.some((excludedDomain) => matchesDomain(cookie.domain, excludedDomain));
+
 			            // Partitioned cookie
 			            if (cookie.partitionKey) {
 			                // Does top-frame site is whitelisted
@@ -330,8 +350,14 @@ function clearBrowsingData(_cleartype = null) {
 			            }
 
 			            if (!keepCookie) {
+				            	// Domain cleaning to avoid chrome.cookies.remove failing
+			                let domainClean = cookie.domain;
+			                if (domainClean.startsWith('.')) {
+			                    domainClean = domainClean.substring(1);
+			                }
+
 			                const removeParams = {
-			                    url: (cookie.secure ? "https://" : "http://") + cookie.domain + cookie.path,
+			                    url: (cookie.secure ? "https://" : "http://") + domainClean + cookie.path,
 			                    name: cookie.name,
 			                    storeId: cookie.storeId
 			                };
@@ -341,12 +367,15 @@ function clearBrowsingData(_cleartype = null) {
 			                    removeParams.partitionKey = cookie.partitionKey;
 
 			                chrome.cookies.remove(removeParams, (details) => {
+			                	if (chrome.runtime.lastError) {
+													console.warn("Erreur suppression:", chrome.runtime.lastError.message);
+												}
 			                });
 			            }
 			        });
 			    });
 
-			    clearBrowsingData_("cookies", cookiesWhitelist_browsingdataAPI); // cookies
+			    //clearBrowsingData_("cookies", cookiesWhitelist_browsingdataAPI); // cookies
 			}
 			
 			// Delete other types of browsing data, if applicable
