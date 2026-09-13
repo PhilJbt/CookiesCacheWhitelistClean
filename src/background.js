@@ -326,6 +326,7 @@ function clearBrowsingData(_cleartype = null) {
 			
 			// Delete Cookies if applicable
 			if (cookiesSwitcher === 'true') {
+				/*
 			    // { partitionKey: {} } allows retrieving ALL cookies, including partitioned ones
 			    chrome.cookies.getAll({ partitionKey: {} }, (cookies) => {
 			        cookies.forEach((cookie) => {
@@ -363,7 +364,7 @@ function clearBrowsingData(_cleartype = null) {
 			                };
 			                
 			                // If the cookie has a partitionKey, it must be passed for the deletion to work
-			                if (cookie.partitionKey)
+			                if (cookie.partitionKey !== undefined)
 			                    removeParams.partitionKey = cookie.partitionKey;
 
 			                chrome.cookies.remove(removeParams, (details) => {
@@ -373,9 +374,9 @@ function clearBrowsingData(_cleartype = null) {
 			                });
 			            }
 			        });
-			    });
+			    });*/
 
-			    //clearBrowsingData_("cookies", cookiesWhitelist_browsingdataAPI); // cookies
+			    clearBrowsingData_("cookies", cookiesWhitelist_browsingdataAPI); // cookies
 			}
 			
 			// Delete other types of browsing data, if applicable
